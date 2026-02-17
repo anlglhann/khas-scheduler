@@ -1,0 +1,9 @@
+body { font-family: system-ui, -apple-system, Arial; margin: 20px; }
+header { margin-bottom: 14px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; }
+.muted { color: #666; font-size: 14px; }
+.row { border: 1px solid #eee; border-radius: 10px; padding: 10px; margin: 8px 0; }
+.row button { float: right; }
+code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }

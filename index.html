@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KHAS Scheduler (Demo)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>KHAS Scheduler (Demo)</h1>
+    <p class="muted">Veri: <code>data/normalized.json</code></p>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Ders seç</h2>
+      <select id="courseSelect"></select>
+      <div id="courseInfo" class="muted"></div>
+
+      <h3>Section’lar</h3>
+      <div id="sectionList"></div>
+    </section>
+
+    <section class="card">
+      <h2>Seçilenler</h2>
+      <div id="chosenList"></div>
+      <button id="clearBtn">Temizle</button>
+      <div id="status" class="muted"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

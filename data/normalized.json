@@ -1,0 +1,761 @@
+{
+  "term": "2025020",
+  "courses": [
+    {
+      "courseCode": "CMPE140*1",
+      "courseName": "Bilgisayar Programlama I",
+      "sections": [
+        {
+          "sectionId": "50467698",
+          "sectionCode": "CMPE140-S01",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "B-311 - PC Lab.2",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Fri",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467701",
+          "sectionCode": "CMPE140-S02",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "B-311 - PC Lab.1",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467704",
+          "sectionCode": "CMPE140-S03",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "PC Lab.1 - B-311",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "16:00",
+              "end": "17:50"
+            },
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467707",
+          "sectionCode": "CMPE140-S04",
+          "instructor": "ALBERT ÖZKOHEN",
+          "room": "B-312 - B-110 My Lab",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "14:00",
+              "end": "15:50"
+            },
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467710",
+          "sectionCode": "CMPE140-S05",
+          "instructor": "ALBERT ÖZKOHEN",
+          "room": "B-312 - PC Lab.2",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "14:00",
+              "end": "15:50"
+            },
+            {
+              "day": "Fri",
+              "start": "12:00",
+              "end": "13:50"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467713",
+          "sectionCode": "CMPE140-S06",
+          "instructor": "FABIO STROPPA",
+          "room": "B-312 - B-410",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            },
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "15:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE241*1",
+      "courseName": "Bilgisayar Programlama II",
+      "sections": [
+        {
+          "sectionId": "50467719",
+          "sectionCode": "CMPE241-S01",
+          "instructor": "ALBERT ÖZKOHEN",
+          "room": "D-Snma-A - PC Lab.1",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "10:50"
+            },
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467722",
+          "sectionCode": "CMPE241-S02",
+          "instructor": "ALBERT ÖZKOHEN",
+          "room": "D-Snma-A - PC Lab.1",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "10:50"
+            },
+            {
+              "day": "Tue",
+              "start": "16:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE242",
+      "courseName": "Veri Yapıları ve Algoritmalar",
+      "sections": [
+        {
+          "sectionId": "50467277",
+          "sectionCode": "CMPE242-S01",
+          "instructor": "ALBERT ÖZKOHEN",
+          "room": "B-110 My Lab",
+          "capacity": 90,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Tue",
+              "start": "12:30",
+              "end": "15:20"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467280",
+          "sectionCode": "CMPE242-S02",
+          "instructor": "FABIO STROPPA",
+          "room": "B-312 - B-311",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:30",
+              "end": "15:20"
+            },
+            {
+              "day": "Thu",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE244*1",
+      "courseName": "Bilgisayar Organizasyonu ve Mimarisi",
+      "sections": [
+        {
+          "sectionId": "50467725",
+          "sectionCode": "CMPE244-S01",
+          "instructor": "İLKTAN AR",
+          "room": "B-410",
+          "capacity": 125,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "16:30",
+              "end": "18:20"
+            },
+            {
+              "day": "Fri",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE299",
+      "courseName": "Staj I",
+      "sections": [
+        {
+          "sectionId": "50467256",
+          "sectionCode": "CMPE299-S01",
+          "instructor": "İLKTAN AR",
+          "room": "",
+          "capacity": 999,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "23:00",
+              "end": "22:51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE304*1",
+      "courseName": "Çizge Kuramı",
+      "sections": [
+        {
+          "sectionId": "50467728",
+          "sectionCode": "CMPE304-S01",
+          "instructor": "ÖZNUR YAŞAR",
+          "room": "B-312",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE344*1",
+      "courseName": "Veritabanı Sistemleri",
+      "sections": [
+        {
+          "sectionId": "50467730",
+          "sectionCode": "CMPE344-S01",
+          "instructor": "DERYA KICI",
+          "room": "Cibali Salon - B-410",
+          "capacity": 125,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "10:50"
+            },
+            {
+              "day": "Wed",
+              "start": "11:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE348*1",
+      "courseName": "Biçimsel Diller ve Otomatlar Kuramı",
+      "sections": [
+        {
+          "sectionId": "50467733",
+          "sectionCode": "CMPE348-S01",
+          "instructor": "İLKTAN AR",
+          "room": "Galata Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE356*1",
+      "courseName": "Yazılım Mühendisliği Projesi",
+      "sections": [
+        {
+          "sectionId": "50467735",
+          "sectionCode": "CMPE356-S01",
+          "instructor": "DERYA KICI",
+          "room": "B-311",
+          "capacity": 130,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "14:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE399",
+      "courseName": "Staj II",
+      "sections": [
+        {
+          "sectionId": "50467283",
+          "sectionCode": "CMPE399-S01",
+          "instructor": "İLKTAN AR",
+          "room": "",
+          "capacity": 999,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "23:00",
+              "end": "22:51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE405",
+      "courseName": "Kuantum Hesaplamaya Giriş",
+      "sections": [
+        {
+          "sectionId": "50470218",
+          "sectionCode": "CMPE405-S01",
+          "instructor": "ÖZKAN KARABACAK",
+          "room": "H-101",
+          "capacity": 10,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE406",
+      "courseName": "Doğal Dil İşleme Projesi",
+      "sections": [
+        {
+          "sectionId": "50467889",
+          "sectionCode": "CMPE406-S01",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "B-409 - B-311",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Tue",
+              "start": "15:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE412",
+      "courseName": "Bilgisayar Benzetimi",
+      "sections": [
+        {
+          "sectionId": "50467285",
+          "sectionCode": "CMPE412-S01",
+          "instructor": "ALBERT ÖZKOHEN",
+          "room": "B-311",
+          "capacity": 65,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE475",
+      "courseName": "Makine Öğrenmesi",
+      "sections": [
+        {
+          "sectionId": "50468599",
+          "sectionCode": "CMPE475-S01",
+          "instructor": "İSMAİL KOÇ",
+          "room": "D-107",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE484",
+      "courseName": "Mobil Uygulama Projesi",
+      "sections": [
+        {
+          "sectionId": "50467287",
+          "sectionCode": "CMPE484-S01",
+          "instructor": "TAYYİP TOPUZ",
+          "room": "B-218 - D-113",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Fri",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE490",
+      "courseName": "Bilgisayar Mühendisliğinde Özel Konular",
+      "sections": [
+        {
+          "sectionId": "50469438",
+          "sectionCode": "CMPE490-S01",
+          "instructor": "FABIO STROPPA",
+          "room": "B-311",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS102",
+      "courseName": "Mühendislik Matematiği II",
+      "sections": [
+        {
+          "sectionId": "50467767",
+          "sectionCode": "FENS102-S01",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "Fener Salonu - Cibali Salon",
+          "capacity": 125,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "16:00",
+              "end": "17:50"
+            },
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "15:20"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467770",
+          "sectionCode": "FENS102-S02",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "Cibali Salon - Fener Salonu",
+          "capacity": 127,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "15:20"
+            },
+            {
+              "day": "Tue",
+              "start": "16:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467773",
+          "sectionCode": "FENS102-S03",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "Cibali Salon",
+          "capacity": 126,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:30",
+              "end": "15:20"
+            },
+            {
+              "day": "Wed",
+              "start": "16:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS103",
+      "courseName": "Doğa Bilimlerinde Karmaşıklık",
+      "sections": [
+        {
+          "sectionId": "50467776",
+          "sectionCode": "FENS103-S01",
+          "instructor": "NARÇİÇEĞİ KIRAN",
+          "room": "B-312",
+          "capacity": 131,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467778",
+          "sectionCode": "FENS103-S02",
+          "instructor": "NARÇİÇEĞİ KIRAN",
+          "room": "B-410",
+          "capacity": 125,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467780",
+          "sectionCode": "FENS103-S03",
+          "instructor": "NARÇİÇEĞİ KIRAN",
+          "room": "Galata Salon",
+          "capacity": 125,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS112",
+      "courseName": "Fizik II",
+      "sections": [
+        {
+          "sectionId": "50467782",
+          "sectionCode": "FENS112-S01",
+          "instructor": "ONUR PUSULUK - MEHMET ÖNDER PEKCAN",
+          "room": "Fener Salonu",
+          "capacity": 146,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:30",
+              "end": "16:20"
+            },
+            {
+              "day": "Wed",
+              "start": "16:30",
+              "end": "18:20"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467785",
+          "sectionCode": "FENS112-S02",
+          "instructor": "MEHMET ÖNDER PEKCAN",
+          "room": "B-409",
+          "capacity": 135,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "16:30",
+              "end": "18:20"
+            },
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        },
+        {
+          "sectionId": "50467788",
+          "sectionCode": "FENS112-S03",
+          "instructor": "MEHMET ÖNDER PEKCAN - DENİZ EROĞLU",
+          "room": "B-212 - B-409",
+          "capacity": 136,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "16:30",
+              "end": "18:20"
+            },
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS495",
+      "courseName": "Bilimsel Araştırma I",
+      "sections": [
+        {
+          "sectionId": "50467264",
+          "sectionCode": "FENS495-S01",
+          "instructor": "FABIO STROPPA",
+          "room": "",
+          "capacity": 10,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "23:00",
+              "end": "22:51"
+            }
+          ]
+        },
+        {
+          "sectionId": "50468533",
+          "sectionCode": "FENS495-S02",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "23:00",
+              "end": "22:51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS496",
+      "courseName": "Bilimsel Araştırma II",
+      "sections": [
+        {
+          "sectionId": "50467267",
+          "sectionCode": "FENS496-S01",
+          "instructor": "FABIO STROPPA",
+          "room": "",
+          "capacity": 10,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "23:00",
+              "end": "22:51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS498",
+      "courseName": "Bilimsel Araştırma IV",
+      "sections": [
+        {
+          "sectionId": "50468520",
+          "sectionCode": "FENS498-S01",
+          "instructor": "SALİH TİLEYLİOĞLU",
+          "room": "H-203",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS499",
+      "courseName": "Bilimsel Araştırma V",
+      "sections": [
+        {
+          "sectionId": "50467269",
+          "sectionCode": "FENS499-S01",
+          "instructor": "İLKTAN AR",
+          "room": "",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "23:00",
+              "end": "22:51"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
