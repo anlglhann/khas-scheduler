@@ -1,9 +1,223 @@
-body { font-family: system-ui, -apple-system, Arial; margin: 20px; }
-header { margin-bottom: 14px; }
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; }
-.muted { color: #666; font-size: 14px; }
-.row { border: 1px solid #eee; border-radius: 10px; padding: 10px; margin: 8px 0; }
-.row button { float: right; }
-code { background: #f6f6f6; padding: 2px 6px; border-radius: 6px; }
-@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+* { box-sizing: border-box; }
+
+body{
+  margin:0;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:#f4f6fb;
+  color:#222;
+}
+
+.topbar{
+  height:60px;
+  background:#fff;
+  border-bottom:1px solid #eaeaea;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 24px;
+  font-weight:600;
+}
+
+.logo{ font-size:16px; letter-spacing:0.2px; }
+
+.icon-btn{
+  border:none;
+  background:#f2f3f7;
+  border-radius:10px;
+  padding:7px 10px;
+  cursor:pointer;
+}
+
+.app{ display:flex; height:calc(100vh - 60px); }
+
+.sidebar{
+  width:360px;
+  background:#fff;
+  border-right:1px solid #eaeaea;
+  padding:18px;
+  overflow:auto;
+}
+
+.main{
+  flex:1;
+  padding:20px;
+  overflow:auto;
+}
+
+.title{
+  margin:0 0 12px 0;
+  font-size:16px;
+}
+
+.sidebar h3{
+  margin:14px 0 8px 0;
+  font-size:11px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:#8e94a8;
+}
+
+.select{
+  width:100%;
+  padding:10px 10px;
+  border-radius:12px;
+  border:1px solid #e0e0e0;
+  background:#fff;
+  margin-bottom:10px;
+}
+
+.muted{ color:#666; font-size:13px; }
+
+.btnrow{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+
+button{
+  border:1px solid #e0e0e0;
+  background:#fff;
+  padding:7px 10px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:12px;
+}
+
+button:hover{ background:#f0f2f8; }
+
+.row{
+  border:1px solid #e8eaf3;
+  border-radius:14px;
+  padding:12px;
+  margin:10px 0;
+  background:linear-gradient(145deg, #ffffff, #f7f8fc);
+  box-shadow:0 4px 10px rgba(0,0,0,0.03);
+}
+
+.row .small{
+  font-size:12px;
+  color:#555;
+  margin-top:6px;
+  line-height:1.4;
+}
+
+.row .actions{
+  margin-top:10px;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.calendar{
+  border-radius:16px;
+  overflow:auto;
+  background:#fff;
+  box-shadow:0 6px 24px rgba(0,0,0,0.06);
+  padding:10px;
+  display:grid;
+  grid-template-columns:80px repeat(5, 1fr);
+  gap:6px;
+  max-height: calc(100vh - 140px);
+}
+
+.cal-head{
+  font-weight:600;
+  font-size:12px;
+  color:#444;
+  padding:8px;
+  text-align:center;
+  border-bottom:1px solid #eee;
+}
+
+.cal-time{
+  font-size:11px;
+  color:#8e94a8;
+  padding:6px 8px;
+  text-align:right;
+}
+
+.cal-cell{
+  border:1px dashed #f0f0f0;
+  border-radius:10px;
+  min-height:36px;
+  padding:4px;
+}
+
+.cal-block {
+  border-radius: 10px;
+  padding: 6px;
+  font-size: 10px;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  white-space: pre-line;
+  position: relative;
+  z-index: 5;
+  font-weight: 500;
+  padding: 4px 6px;
+}
+
+.dark{ background:#111; color:#eee; }
+.dark .topbar, .dark .sidebar, .dark .calendar{ background:#1b1b1b; border-color:#333; box-shadow:none; }
+.dark .row{ background:#1f1f1f; border-color:#333; box-shadow:none; }
+.dark .select{ background:#222; color:#eee; border-color:#444; }
+.dark button{ background:#222; border-color:#444; color:#eee; }
+.dark .cal-cell{ border-color:#333; }
+
+#courseSearch{
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+#courseSearch:focus{
+  border-color: #999;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar label {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+#facultySelect,
+#programSelect,
+#courseSelect,
+#courseSearch {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#facultySelect:focus,
+#programSelect:focus,
+#courseSelect:focus,
+#courseSearch:focus {
+  border-color: #888;
+}
+
+body.dark #facultySelect,
+body.dark #programSelect,
+body.dark #courseSelect,
+body.dark #courseSearch {
+  background: #111;
+  color: #eee;
+  border-color: #333;
+}

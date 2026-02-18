@@ -1,34 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>KHAS Scheduler (Demo)</title>
+  <meta charset="UTF-8" />
+  <title>KHAS Scheduler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>KHAS Scheduler (Demo)</h1>
-    <p class="muted">Veri: <code>data/normalized.json</code></p>
+
+  <header class="topbar">
+    <div class="logo">KHAS Scheduler</div>
+    <button id="darkToggle" class="icon-btn">🌙</button>
   </header>
 
-  <main class="grid">
-    <section class="card">
-      <h2>Ders seç</h2>
-      <select id="courseSelect"></select>
+  <div class="app">
+    <aside class="sidebar">
+      <h3>Ders seç</h3>
+      <label>Faculty</label>
+<select id="facultySelect"></select>
+<label>Program</label>
+<select id="programSelect"></select>
+<label>Course</label>
+<select id="courseSelect" class="select"></select>
+      <input id="courseSearch" type="text" placeholder="Ders ara (örn: CMPE140, Veri Yapıları)" />
       <div id="courseInfo" class="muted"></div>
 
       <h3>Section’lar</h3>
       <div id="sectionList"></div>
-    </section>
 
-    <section class="card">
-      <h2>Seçilenler</h2>
+      <h3>Seçilenler</h3>
       <div id="chosenList"></div>
-      <button id="clearBtn">Temizle</button>
+
+      <div class="btnrow">
+        <button id="clearBtn">Temizle</button>
+        <button id="saveDraftBtn">Kaydet</button>
+        <button id="loadDraftBtn">Yükle</button>
+        <button id="copyLinkBtn">Link</button>
+      </div>
+
       <div id="status" class="muted"></div>
-    </section>
-  </main>
+    </aside>
+
+    <main class="main">
+      <h2 class="title">Takvim</h2>
+      <div id="calendar" class="calendar"></div>
+    </main>
+  </div>
 
   <script src="app.js"></script>
 </body>
