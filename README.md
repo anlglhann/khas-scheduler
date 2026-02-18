@@ -10,7 +10,7 @@ A simple course scheduler for Kadir Has University.
 - Shareable link (URL parameter)
 
 ## Live Demo
-(After enabling GitHub Pages, paste your link here.)
+https://anlglhann.github.io/khas-scheduler/
 
 ## Data pipeline
 1. Put raw SPARKS exports into `raw/` (one JSON per program, e.g. `fens_cmpe.json`)
