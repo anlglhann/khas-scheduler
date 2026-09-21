@@ -468,7 +468,7 @@ function updateProgramDropdown() {
     : DATA?.courses || [];
   const programs = [...new Set(matchingCourses.map((course) => course.program).filter(Boolean))].sort();
 
-  programSelect.innerHTML = '<option value="">Tüm programlar</option>';
+  programSelect.innerHTML = '<option value="">Tümü</option>';
   for (const program of programs) {
     const option = document.createElement("option");
     option.value = program;

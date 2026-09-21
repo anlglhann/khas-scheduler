@@ -1,10 +1,296 @@
 {
   "courses": [
     {
+      "courseCode": "ADV101",
+      "courseName": "Reklamcılığı Anlamak",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV101-S01",
+          "sectionId": "50479594",
+          "instructor": "MİNE BERTAN YILMAZ",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV103",
+      "courseName": "Reklamcılığın Öncüleri",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV103-S01",
+          "sectionId": "50479340",
+          "instructor": "PERRİN ÖĞÜN EMRE",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV203",
+      "courseName": "Reklamda Yaratıcılık",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV203-S01",
+          "sectionId": "50479596",
+          "instructor": "ONUR SERDAN ÇARBOĞA",
+          "room": "B-210",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV205",
+      "courseName": "Araştırma Tasarımı",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV205-S01",
+          "sectionId": "50479344",
+          "instructor": "MİNE BERTAN YILMAZ",
+          "room": "D-113",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV213",
+      "courseName": "Reklamcılık için Sahneleme",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV213-S01",
+          "sectionId": "50479342",
+          "instructor": "BANU BAYBARS",
+          "room": "D-113",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV301",
+      "courseName": "Reklam Kampanyası Tasarımı I",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV301-S01",
+          "sectionId": "50479598",
+          "instructor": "ONUR SERDAN ÇARBOĞA",
+          "room": "B-516",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV303",
+      "courseName": "Reklam Stratejisi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV303-S01",
+          "sectionId": "50479938",
+          "instructor": "",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV305",
+      "courseName": "Metin Yazarlığı",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV305-S01",
+          "sectionId": "50479602",
+          "instructor": "ONUR SERDAN ÇARBOĞA",
+          "room": "D-107",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV307",
+      "courseName": "Reklam Analizi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV307-S01",
+          "sectionId": "50479604",
+          "instructor": "",
+          "room": "D-103",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV311",
+      "courseName": "İnteraktif Reklamcılık",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV311-S01",
+          "sectionId": "50479606",
+          "instructor": "",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV401",
+      "courseName": "Reklamcılık Yönetimi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV401-S01",
+          "sectionId": "50479608",
+          "instructor": "METİN KOZAK",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV402",
+      "courseName": "Markalaşma",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV402-S01",
+          "sectionId": "50479610",
+          "instructor": "METİN KOZAK",
+          "room": "D-Snma-A",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ADV403",
+      "courseName": "Sponsorluk",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "ADV403-S01",
+          "sectionId": "50479612",
+          "instructor": "PERRİN ÖĞÜN EMRE",
+          "room": "D-112",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "courseCode": "AI101",
       "courseName": "Veri Bilimi ve Mühendisliğine Giriş",
-      "faculty": "FENS",
-      "program": "AI",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Yapay Zekâ ve Veri Mühendisliği",
       "sections": [
         {
           "sectionCode": "AI101-S01",
@@ -25,8 +311,8 @@
     {
       "courseCode": "AI103",
       "courseName": "Etik ve Veri Gizliliği",
-      "faculty": "FENS",
-      "program": "AI",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Yapay Zekâ ve Veri Mühendisliği",
       "sections": [
         {
           "sectionCode": "AI103-S01",
@@ -47,8 +333,8 @@
     {
       "courseCode": "AI141",
       "courseName": "Bilgisayar Programlama I",
-      "faculty": "FENS",
-      "program": "AI",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Yapay Zekâ ve Veri Mühendisliği",
       "sections": [
         {
           "sectionCode": "AI141-S01",
@@ -72,10 +358,310 @@
       ]
     },
     {
+      "courseCode": "BUS101",
+      "courseName": "İşletmeye Giriş",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS101-S01",
+          "sectionId": "50479429",
+          "instructor": "AYŞE BAŞAK TOPALER",
+          "room": "B-312",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "BUS101-S02",
+          "sectionId": "50479431",
+          "instructor": "AFSAR YEGIN",
+          "room": "B-301",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "BUS101-S03",
+          "sectionId": "50479433",
+          "instructor": "AFSAR YEGIN",
+          "room": "Galata Salon",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS215",
+      "courseName": "Finansal Muhasebe",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS215-S01",
+          "sectionId": "50479031",
+          "instructor": "AYŞE İREM KESKİN",
+          "room": "D-104",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "BUS215-S02",
+          "sectionId": "50479033",
+          "instructor": "AYŞE İREM KESKİN",
+          "room": "B-311",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "BUS215-S03",
+          "sectionId": "50479035",
+          "instructor": "AYŞE İREM KESKİN",
+          "room": "B-518",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS302",
+      "courseName": "İş İletişimi ve Etik",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS302-S01",
+          "sectionId": "50479048",
+          "instructor": "MELTEM KIYGI ÇALLI",
+          "room": "B-502",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS317",
+      "courseName": "Uluslararası İşletme",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS317-S01",
+          "sectionId": "50479007",
+          "instructor": "AYŞE BAŞAK TOPALER",
+          "room": "B-501",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS325",
+      "courseName": "Kantitatif Karar Verme Teknikleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS325-S01",
+          "sectionId": "50479037",
+          "instructor": "ÖMER FARUK GÖRÇÜN",
+          "room": "B-312",
+          "capacity": 55,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS331",
+      "courseName": "Pazarlamanın Prensipleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS331-S01",
+          "sectionId": "50479039",
+          "instructor": "SENDİ ÇAĞLIYOR",
+          "room": "B-501 - B-311",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "14:50"
+            },
+            {
+              "day": "Wed",
+              "start": "13:30",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "BUS331-S02",
+          "sectionId": "50479042",
+          "instructor": "MELTEM KIYGI ÇALLI",
+          "room": "B-501",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS399",
+      "courseName": "Staj",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS399-S01",
+          "sectionId": "50479046",
+          "instructor": "ÖMER FARUK GÖRÇÜN",
+          "room": "",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "02:00",
+              "end": "02:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS401",
+      "courseName": "Araştırma Yöntemleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS401-S01",
+          "sectionId": "50479044",
+          "instructor": "NİMET URAY",
+          "room": "B-502",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS403",
+      "courseName": "Uygulamalı Stratejik Marka Yönetimi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS403-S01",
+          "sectionId": "50479441",
+          "instructor": "SENDİ ÇAĞLIYOR",
+          "room": "B-501 - B-303",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "10:20"
+            },
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "BUS435",
+      "courseName": "Tedarik Zinciri Yönetimi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "BUS435-S01",
+          "sectionId": "50479050",
+          "instructor": "ÖMER FARUK GÖRÇÜN",
+          "room": "B-501",
+          "capacity": 55,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "courseCode": "CHEM101",
       "courseName": "Genel Kimya I",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "CHEM101-S01",
@@ -96,8 +682,8 @@
     {
       "courseCode": "CHEM121",
       "courseName": "Genel Kimya Lab I",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "CHEM121-S01",
@@ -146,8 +732,8 @@
     {
       "courseCode": "CIV261",
       "courseName": "Mukavemet",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV261-S01",
@@ -173,8 +759,8 @@
     {
       "courseCode": "CIV321",
       "courseName": "Şantiye Yönetimi",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV321-S01",
@@ -195,8 +781,8 @@
     {
       "courseCode": "CIV341",
       "courseName": "Hidrolik",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV341-S01",
@@ -217,8 +803,8 @@
     {
       "courseCode": "CIV351",
       "courseName": "Çelik Yapıların Tasarımı",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV351-S01",
@@ -244,8 +830,8 @@
     {
       "courseCode": "CIV371",
       "courseName": "Zemin Özelliklerinin İncelenmesi",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV371-S01",
@@ -271,8 +857,8 @@
     {
       "courseCode": "CIV432",
       "courseName": "Demiryolu / Otoyol Tasarımı",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV432-S01",
@@ -293,8 +879,8 @@
     {
       "courseCode": "CIV451",
       "courseName": "Yapı Dinamiğinin İncelenmesi",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV451-S01",
@@ -320,8 +906,8 @@
     {
       "courseCode": "CIV471",
       "courseName": "Oturma Sorunu",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV471-S01",
@@ -342,8 +928,8 @@
     {
       "courseCode": "CIV491",
       "courseName": "Betonarme Yapı Tasarımı",
-      "faculty": "FENS",
-      "program": "CIV",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "İnşaat Mühendisliği",
       "sections": [
         {
           "sectionCode": "CIV491-S01",
@@ -369,8 +955,8 @@
     {
       "courseCode": "CMPE107",
       "courseName": "Teknik Yazım ve Sunum",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE107-S01",
@@ -391,8 +977,8 @@
     {
       "courseCode": "CMPE140",
       "courseName": "Bilgisayar Programlama I",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE140-S01",
@@ -437,8 +1023,8 @@
     {
       "courseCode": "CMPE201",
       "courseName": "Ayrık Hesaplama Yapıları",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE201-S01",
@@ -459,8 +1045,8 @@
     {
       "courseCode": "CMPE241",
       "courseName": "Bilgisayar Programlama II",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE241-S01",
@@ -505,8 +1091,8 @@
     {
       "courseCode": "CMPE243",
       "courseName": "Mantık Devreleri Tasarımı",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE243-S01",
@@ -551,8 +1137,8 @@
     {
       "courseCode": "CMPE263",
       "courseName": "Elektronik Devrelerin Temelleri",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE263-S01",
@@ -578,8 +1164,8 @@
     {
       "courseCode": "CMPE320",
       "courseName": "Veri Bilimi",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE320-S01",
@@ -600,8 +1186,8 @@
     {
       "courseCode": "CMPE341",
       "courseName": "İşletim Sistemleri",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE341-S01",
@@ -627,8 +1213,8 @@
     {
       "courseCode": "CMPE343",
       "courseName": "Nesneye Yönelik Programlama Dilleri",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE343-S01",
@@ -649,8 +1235,8 @@
     {
       "courseCode": "CMPE351",
       "courseName": "Bilgisayar Ağları",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE351-S01",
@@ -676,8 +1262,8 @@
     {
       "courseCode": "CMPE353",
       "courseName": "Algoritma Analizi",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE353-S01",
@@ -698,8 +1284,8 @@
     {
       "courseCode": "CMPE490",
       "courseName": "Bilgisayar Mühendisliğinde Özel Konular",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE490-S01",
@@ -720,8 +1306,8 @@
     {
       "courseCode": "CMPE493",
       "courseName": "Bilgi Kuramına Giriş: Klasikten Kuantuma",
-      "faculty": "FENS",
-      "program": "CMPE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "CMPE493-S01",
@@ -740,10 +1326,510 @@
       ]
     },
     {
+      "courseCode": "COMM201",
+      "courseName": "Görsel Kültür",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "COMM201-S01",
+          "sectionId": "50479097",
+          "instructor": "NORA TATARYAN ASLAN",
+          "room": "B-212",
+          "capacity": 79,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "COMM201-S02",
+          "sectionId": "50479101",
+          "instructor": "BÜLENT DİKEN",
+          "room": "D-104",
+          "capacity": 58,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "COMM211",
+      "courseName": "Yaratıcı Yazarlık",
+      "faculty": "İletişim Fakültesi",
+      "program": "Reklamcılık",
+      "sections": [
+        {
+          "sectionCode": "COMM211-S01",
+          "sectionId": "50479896",
+          "instructor": "",
+          "room": "B-418-NM Lab",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "COMM353",
+      "courseName": "Duygular ve Popüler Medya",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "COMM353-S01",
+          "sectionId": "50479654",
+          "instructor": "GÖZDE CÖBEK",
+          "room": "B-516",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "COMM401",
+      "courseName": "Mezuniyet Projesi I",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "COMM401-S01",
+          "sectionId": "50479103",
+          "instructor": "DEFNE TÜZÜN",
+          "room": "D-Snma-B",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "COMM401-S02",
+          "sectionId": "50479106",
+          "instructor": "BANU BAYBARS",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "COMM401-S03",
+          "sectionId": "50479108",
+          "instructor": "ONUR SERDAN ÇARBOĞA",
+          "room": "D-112",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "COMM401-S04",
+          "sectionId": "50479110",
+          "instructor": "İSMAİL HAKKI POLAT",
+          "room": "B-402",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "COMM401-S05",
+          "sectionId": "50479112",
+          "instructor": "DORUK KUMKUMOĞLU",
+          "room": "DesignLab",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON101",
+      "courseName": "Ekonomiye Giriş I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON101-S01",
+          "sectionId": "50479415",
+          "instructor": "ALP ERİNÇ YELDAN",
+          "room": "Galata Salon",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "ECON101-S02",
+          "sectionId": "50479417",
+          "instructor": "ALP ERİNÇ YELDAN",
+          "room": "B-502",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "ECON101-S03",
+          "sectionId": "50479419",
+          "instructor": "ULAŞ KARAKOÇ",
+          "room": "B-211",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "ECON101-S04",
+          "sectionId": "50479421",
+          "instructor": "ULAŞ KARAKOÇ",
+          "room": "B-501",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON107",
+      "courseName": "Ekonominin Temelleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON107-S01",
+          "sectionId": "50479493",
+          "instructor": "HASAN TEKGÜÇ",
+          "room": "D-113",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON203",
+      "courseName": "İktisatçılar için Matematik",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON203-S01",
+          "sectionId": "50478995",
+          "instructor": "ASLI AYDIN GÖK",
+          "room": "D120(MS)",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON233",
+      "courseName": "Makroekonomi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON233-S01",
+          "sectionId": "50479423",
+          "instructor": "ÖZGÜR ORHANGAZİ",
+          "room": "B-212",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "ECON233-S02",
+          "sectionId": "50479425",
+          "instructor": "ÖZGÜR ORHANGAZİ",
+          "room": "B-223",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON301",
+      "courseName": "Oyun Teorisi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON301-S01",
+          "sectionId": "50479005",
+          "instructor": "",
+          "room": "B-502",
+          "capacity": 1,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON311",
+      "courseName": "Kamu Maliyesi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON311-S01",
+          "sectionId": "50478997",
+          "instructor": "HASAN TEKGÜÇ",
+          "room": "B-210",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON323",
+      "courseName": "Ekonometri I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON323-S01",
+          "sectionId": "50480002",
+          "instructor": "ULAŞ KARAKOÇ",
+          "room": "B-503",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON327",
+      "courseName": "Uluslararası Ticaret Teorileri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON327-S01",
+          "sectionId": "50479198",
+          "instructor": "",
+          "room": "B-502",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON335",
+      "courseName": "Enerji Ekonomisi: Kavramdan Uygulamaya",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON335-S01",
+          "sectionId": "50479792",
+          "instructor": "MELTEM UCAL",
+          "room": "B-223",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON399",
+      "courseName": "Staj",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON399-S01",
+          "sectionId": "50478999",
+          "instructor": "HASAN TEKGÜÇ",
+          "room": "",
+          "capacity": 10,
+          "meetings": [
+            {
+              "day": "Sat",
+              "start": "01:00",
+              "end": "01:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON435",
+      "courseName": "Uygulamalı Ekonomi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON435-S01",
+          "sectionId": "50479001",
+          "instructor": "ASLI AYDIN GÖK",
+          "room": "B-212",
+          "capacity": 1,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON437",
+      "courseName": "Politik Ekonomi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON437-S01",
+          "sectionId": "50479276",
+          "instructor": "ÖZGÜR ORHANGAZİ",
+          "room": "B-501",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ECON439",
+      "courseName": "Büyüme ve Kalkınma",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "ECON439-S01",
+          "sectionId": "50479003",
+          "instructor": "ASLI AYDIN GÖK",
+          "room": "D120(MS)",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "courseCode": "EEE203",
       "courseName": "Devre Analizi I",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE203-S01",
@@ -769,8 +1855,8 @@
     {
       "courseCode": "EEE207",
       "courseName": "Elektrik-Elektronik Mühendisliği İçin Ar",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE207-S01",
@@ -791,8 +1877,8 @@
     {
       "courseCode": "EEE304",
       "courseName": "Elektronik II",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE304-S01",
@@ -818,8 +1904,8 @@
     {
       "courseCode": "EEE305",
       "courseName": "Mikrodenetleyiciler",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE305-S01",
@@ -845,8 +1931,8 @@
     {
       "courseCode": "EEE307",
       "courseName": "Sinyaller ve Sistemler",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE307-S01",
@@ -867,8 +1953,8 @@
     {
       "courseCode": "EEE309",
       "courseName": "Yazılım-Donanım Entegrasyonu Projesi",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE309-S01",
@@ -889,8 +1975,8 @@
     {
       "courseCode": "EEE312",
       "courseName": "Elektromekanik Enerji Dönüşümü",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE312-S01",
@@ -916,8 +2002,8 @@
     {
       "courseCode": "EEE409",
       "courseName": "Haberleşme Projesi",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE409-S01",
@@ -948,8 +2034,8 @@
     {
       "courseCode": "EEE413",
       "courseName": "Duyurucu Ağları",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE413-S01",
@@ -975,8 +2061,8 @@
     {
       "courseCode": "EEE432",
       "courseName": "Güç Elektroniği",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE432-S01",
@@ -997,8 +2083,8 @@
     {
       "courseCode": "EEE436",
       "courseName": "Yüksek Gerilim Tekniği",
-      "faculty": "FENS",
-      "program": "EEE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "EEE436-S01",
@@ -1019,8 +2105,8 @@
     {
       "courseCode": "FENS101",
       "courseName": "Mühendislik Matematiği I",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "FENS101-S01",
@@ -1065,8 +2151,8 @@
     {
       "courseCode": "FENS105",
       "courseName": "Doğrusal Cebir",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "FENS105-S01",
@@ -1101,8 +2187,8 @@
     {
       "courseCode": "FENS111",
       "courseName": "Fizik I",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "FENS111-S01",
@@ -1137,8 +2223,8 @@
     {
       "courseCode": "FENS200",
       "courseName": "Olasılık ve İstatistik",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "FENS200-S01",
@@ -1173,8 +2259,8 @@
     {
       "courseCode": "FENS203",
       "courseName": "Malzemeler",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "FENS203-S01",
@@ -1209,8 +2295,8 @@
     {
       "courseCode": "FENS204",
       "courseName": "Mühendislik Matematiği III",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Bilgisayar Mühendisliği",
       "sections": [
         {
           "sectionCode": "FENS204-S01",
@@ -1255,8 +2341,8 @@
     {
       "courseCode": "FENS401",
       "courseName": "Mühendislik Tasarım Projesi I",
-      "faculty": "FENS",
-      "program": "FENS",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Elektrik Elektronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "FENS401-S01",
@@ -1359,10 +2445,312 @@
       ]
     },
     {
+      "courseCode": "HST101",
+      "courseName": "Modern Türkiye Tarihi I",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "HST101-S01",
+          "sectionId": "50478754",
+          "instructor": "ZEYNEP KUTLUATA",
+          "room": "B-501",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S02",
+          "sectionId": "50478756",
+          "instructor": "ZEYNEP KUTLUATA",
+          "room": "B-201",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S03",
+          "sectionId": "50478758",
+          "instructor": "ZEYNEP KUTLUATA",
+          "room": "B-202",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S04",
+          "sectionId": "50478760",
+          "instructor": "YENER KOÇ",
+          "room": "B-401",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S05",
+          "sectionId": "50478762",
+          "instructor": "YENER KOÇ",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S06",
+          "sectionId": "50478764",
+          "instructor": "YENER KOÇ",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S07",
+          "sectionId": "50478766",
+          "instructor": "AKIN SEFER",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S08",
+          "sectionId": "50478768",
+          "instructor": "AKIN SEFER",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S09",
+          "sectionId": "50478770",
+          "instructor": "AKIN SEFER",
+          "room": "B-401",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S10",
+          "sectionId": "50478772",
+          "instructor": "AKIN SEFER",
+          "room": "B-401",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S11",
+          "sectionId": "50478774",
+          "instructor": "AKIN SEFER",
+          "room": "B-301",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S12",
+          "sectionId": "50478776",
+          "instructor": "MÜGE ÖZBEK",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S13",
+          "sectionId": "50478778",
+          "instructor": "MÜGE ÖZBEK",
+          "room": "B-401",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S14",
+          "sectionId": "50478780",
+          "instructor": "MÜGE ÖZBEK",
+          "room": "B-401",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S15",
+          "sectionId": "50478782",
+          "instructor": "MÜGE ÖZBEK",
+          "room": "B-401",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S16",
+          "sectionId": "50478784",
+          "instructor": "MÜGE ÖZBEK",
+          "room": "B-401",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S17",
+          "sectionId": "50478786",
+          "instructor": "ANNA VAKALİS",
+          "room": "B-301",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S18",
+          "sectionId": "50478788",
+          "instructor": "ANNA VAKALİS",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S19",
+          "sectionId": "50478790",
+          "instructor": "ANNA VAKALİS",
+          "room": "B-301",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S20",
+          "sectionId": "50478792",
+          "instructor": "ANNA VAKALİS",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "HST101-S21",
+          "sectionId": "50478794",
+          "instructor": "ANNA VAKALİS",
+          "room": "B-302",
+          "capacity": 54,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "courseCode": "INE102",
       "courseName": "Endüstri Mühendisliğinin Prensipleri",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE102-S01",
@@ -1383,8 +2771,8 @@
     {
       "courseCode": "INE214",
       "courseName": "Endüstri Mühendisleri İçin Programlama A",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE214-S01",
@@ -1419,8 +2807,8 @@
     {
       "courseCode": "INE311",
       "courseName": "Yöneylem Araştırması I",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE311-S01",
@@ -1441,8 +2829,8 @@
     {
       "courseCode": "INE313",
       "courseName": "İstatistiksel Karar Verme",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE313-S01",
@@ -1463,8 +2851,8 @@
     {
       "courseCode": "INE317",
       "courseName": "Çok Amaçlı Karar Verme",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE317-S01",
@@ -1485,8 +2873,8 @@
     {
       "courseCode": "INE319",
       "courseName": "Tedarik Zinciri Yönetimi",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE319-S01",
@@ -1507,8 +2895,8 @@
     {
       "courseCode": "INE321",
       "courseName": "Tesis Tasarımı ve Fabrika Yerleşimi",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE321-S01",
@@ -1529,8 +2917,8 @@
     {
       "courseCode": "INE351",
       "courseName": "Endüstri Mühendisliği için Hesaplama Yön",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE351-S01",
@@ -1551,8 +2939,8 @@
     {
       "courseCode": "INE401",
       "courseName": "Üretim Planlama ve Kontrol",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE401-S01",
@@ -1573,8 +2961,8 @@
     {
       "courseCode": "INE409",
       "courseName": "Karar Analizi",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE409-S01",
@@ -1595,8 +2983,8 @@
     {
       "courseCode": "INE425",
       "courseName": "Stokastik Süreçler",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE425-S01",
@@ -1617,8 +3005,8 @@
     {
       "courseCode": "INE432",
       "courseName": "Endüstriyel Ekosistem",
-      "faculty": "FENS",
-      "program": "IE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Endüstri Mühendisliği",
       "sections": [
         {
           "sectionCode": "INE432-S01",
@@ -1637,10 +3025,2069 @@
       ]
     },
     {
+      "courseCode": "IT321",
+      "courseName": "Bulut Hesaplama",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "IT321-S01",
+          "sectionId": "50479801",
+          "instructor": "OĞUZHAN CEYLAN",
+          "room": "B-522",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF299",
+      "courseName": "Staj",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF299-S01",
+          "sectionId": "50479056",
+          "instructor": "ASLI TOGAN",
+          "room": "",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Sun",
+              "start": "05:00",
+              "end": "05:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF303",
+      "courseName": "Finansal Yönetim",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF303-S01",
+          "sectionId": "50479052",
+          "instructor": "ASLI TOGAN",
+          "room": "D-114",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF305",
+      "courseName": "Uluslararası Ticaret Teorisi ve Politika",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF305-S01",
+          "sectionId": "50479009",
+          "instructor": "",
+          "room": "B-502",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF307",
+      "courseName": "Finansal Piyasalar ve Kurumlar",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF307-S01",
+          "sectionId": "50479054",
+          "instructor": "AYŞE BELMA ÖZTÜRKKAL",
+          "room": "B-211",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF321",
+      "courseName": "Finansal Ekonomi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF321-S01",
+          "sectionId": "50479058",
+          "instructor": "ASLI TOGAN",
+          "room": "B-402",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF409",
+      "courseName": "Uluslararası Ticaretin Finansmanı",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF409-S01",
+          "sectionId": "50479060",
+          "instructor": "AYNUR DİLAN TOSUN",
+          "room": "B-516",
+          "capacity": 45,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF411",
+      "courseName": "Finansal Türevler",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF411-S01",
+          "sectionId": "50479062",
+          "instructor": "AYNUR DİLAN TOSUN",
+          "room": "B-518",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF413",
+      "courseName": "Portföy Yönetimi ve Analizi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF413-S01",
+          "sectionId": "50479064",
+          "instructor": "OĞUZ ERSAN",
+          "room": "B-501",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "ITF417",
+      "courseName": "Davranışsal Finans",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Uluslararası Ticaret ve Finansman",
+      "sections": [
+        {
+          "sectionCode": "ITF417-S01",
+          "sectionId": "50479066",
+          "instructor": "AYŞE BELMA ÖZTÜRKKAL",
+          "room": "B-210",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "16:30",
+              "end": "19:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS103",
+      "courseName": "İnsanlık Tarihi",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS103-S01",
+          "sectionId": "50478633",
+          "instructor": "ALİ TUNA KUYUCU",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S02",
+          "sectionId": "50478635",
+          "instructor": "DOĞU DURGUN",
+          "room": "B-202",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S03",
+          "sectionId": "50478637",
+          "instructor": "DOĞU DURGUN",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S04",
+          "sectionId": "50478639",
+          "instructor": "DİDEM TÜRKOĞLU",
+          "room": "B-303",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S05",
+          "sectionId": "50478641",
+          "instructor": "DİDEM TÜRKOĞLU",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S06",
+          "sectionId": "50478643",
+          "instructor": "NESLİŞAH LEMAN BAŞARAN LOTZ",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S07",
+          "sectionId": "50478645",
+          "instructor": "NESLİŞAH LEMAN BAŞARAN LOTZ",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S08",
+          "sectionId": "50478647",
+          "instructor": "DİDEM TÜRKOĞLU",
+          "room": "B-202",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S09",
+          "sectionId": "50478649",
+          "instructor": "NESLİŞAH LEMAN BAŞARAN LOTZ",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S10",
+          "sectionId": "50478651",
+          "instructor": "FIRAT KURT",
+          "room": "B-202",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S11",
+          "sectionId": "50478653",
+          "instructor": "FIRAT KURT",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S12",
+          "sectionId": "50478655",
+          "instructor": "FIRAT KURT",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S13",
+          "sectionId": "50478657",
+          "instructor": "BURAK BAŞARANLAR",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S14",
+          "sectionId": "50478659",
+          "instructor": "BURAK BAŞARANLAR",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S15",
+          "sectionId": "50478661",
+          "instructor": "BURAK BAŞARANLAR",
+          "room": "B-201",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S16",
+          "sectionId": "50478663",
+          "instructor": "DOĞU DURGUN",
+          "room": "B-202",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS103-S17",
+          "sectionId": "50478665",
+          "instructor": "ZEYNEP KUTLUATA",
+          "room": "B-202",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS105",
+      "courseName": "Evrensel Değerler ve Etik",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS105-S01",
+          "sectionId": "50478667",
+          "instructor": "DENİZ GÜNDOĞAN İBRİŞİM",
+          "room": "B-301",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S02",
+          "sectionId": "50478669",
+          "instructor": "DENİZ GÜNDOĞAN İBRİŞİM",
+          "room": "B-301",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S03",
+          "sectionId": "50478671",
+          "instructor": "DENİZ GÜNDOĞAN İBRİŞİM",
+          "room": "B-301",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S04",
+          "sectionId": "50478673",
+          "instructor": "ÖZLEM ASLAN YILDIRIM",
+          "room": "B-202",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S05",
+          "sectionId": "50478675",
+          "instructor": "SENİYE TİLEV",
+          "room": "B-202",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S06",
+          "sectionId": "50478677",
+          "instructor": "SENİYE TİLEV",
+          "room": "B-302",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S07",
+          "sectionId": "50478679",
+          "instructor": "TUĞBA SEVİNÇ",
+          "room": "B-301",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S08",
+          "sectionId": "50478681",
+          "instructor": "SENİYE TİLEV",
+          "room": "B-301",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S09",
+          "sectionId": "50478683",
+          "instructor": "ÖZLEM ASLAN YILDIRIM",
+          "room": "B-202",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S10",
+          "sectionId": "50478685",
+          "instructor": "TUĞBA SEVİNÇ",
+          "room": "B-202",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S11",
+          "sectionId": "50478687",
+          "instructor": "TUĞBA SEVİNÇ",
+          "room": "B-302",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S12",
+          "sectionId": "50478689",
+          "instructor": "MİNE YILDIRIM",
+          "room": "B-202",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S13",
+          "sectionId": "50478691",
+          "instructor": "MİNE YILDIRIM",
+          "room": "B-202",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS105-S14",
+          "sectionId": "50478693",
+          "instructor": "ÖZLEM ASLAN YILDIRIM",
+          "room": "B-301",
+          "capacity": 73,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS109",
+      "courseName": "Hesaplamalı Düşünme",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Ekonomi",
+      "sections": [
+        {
+          "sectionCode": "KHAS109-S01",
+          "sectionId": "50478695",
+          "instructor": "ÖMER FARUK GÖRÇÜN",
+          "room": "Galata Salon",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS109-S02",
+          "sectionId": "50478697",
+          "instructor": "",
+          "room": "B-302",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS109-S03",
+          "sectionId": "50478699",
+          "instructor": "",
+          "room": "Galata Salon",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1224",
+      "courseName": "Enerji Yoksulluğunu Anlamak: Dünyada Bun",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1224-S01",
+          "sectionId": "50479263",
+          "instructor": "MELTEM UCAL",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1332",
+      "courseName": "Modern Dünya’da Popüler Kültür: Tür, Mec",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1332-S01",
+          "sectionId": "50479265",
+          "instructor": "DORUK TATAR",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1334",
+      "courseName": "Ortadoğu'da Devlet, Toplum ve Ekonomi (1",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1334-S01",
+          "sectionId": "50479267",
+          "instructor": "YENER KOÇ",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1404",
+      "courseName": "Çağdaş Edebiyat ve Kültürde Duygu",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1404-S01",
+          "sectionId": "50479232",
+          "instructor": "YÜCE AYDOĞAN",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1408",
+      "courseName": "İstanbul'u Müzik, Film ve Edebiyatla Keş",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1408-S01",
+          "sectionId": "50479234",
+          "instructor": "BAŞAK DENİZ ÖZDOĞAN DOĞDUASLAN",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1410",
+      "courseName": "İstanbul’u Okumak: Edebiyatın İzlerinde",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1410-S01",
+          "sectionId": "50479236",
+          "instructor": "NURAN BUKET CENGİZ",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1414",
+      "courseName": "Kimlik, Kolektif Hafıza ve Nostalji: Ede",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1414-S01",
+          "sectionId": "50479238",
+          "instructor": "ŞEHNAZ ŞİŞMANOĞLU ŞİMŞEK",
+          "room": "D-114",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1454",
+      "courseName": "Yolda İstanbul: Sanat ve Tasarımla Şehri",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1454-S01",
+          "sectionId": "50479282",
+          "instructor": "YAĞMUR YILDIRIM",
+          "room": "D-103",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1464",
+      "courseName": "Hikâye Anlatıcılığı: Mitler, Destanlar v",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1464-S01",
+          "sectionId": "50479588",
+          "instructor": "AYŞEGÜL POMAKOĞLU",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1466",
+      "courseName": "Türkçe Edebiyatta Kadın Yazını (1895-195",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1466-S01",
+          "sectionId": "50479590",
+          "instructor": "BİLGE ULUSMAN",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1742",
+      "courseName": "Liderlik ve Girişimcilik",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1742-S01",
+          "sectionId": "50479284",
+          "instructor": "ZEYNEP TUNAY GÜL",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "KHAS1808",
+      "courseName": "Bilinçli Farkındalık",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "KHAS1808-S01",
+          "sectionId": "50479286",
+          "instructor": "ZEYNEP TUNAY GÜL",
+          "room": "D-103",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "KHAS1808-S02",
+          "sectionId": "50479288",
+          "instructor": "ZEYNEP TUNAY GÜL",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW103",
+      "courseName": "Karşılaştırmalı Anayasa Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW103-S01",
+          "sectionId": "50479290",
+          "instructor": "BAŞAK EKİNCİ - OLGUN AKBULUT",
+          "room": "B-409 - B-212",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "16:50"
+            },
+            {
+              "day": "Mon",
+              "start": "12:30",
+              "end": "14:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW105",
+      "courseName": "Medeni Hukuk Genel Bölüm",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW105-S01",
+          "sectionId": "50479458",
+          "instructor": "AHMET AYAR - ÖZGE UZUN KAZMACI",
+          "room": "Fener Salonu - Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:30",
+              "end": "11:20"
+            },
+            {
+              "day": "Tue",
+              "start": "14:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW107",
+      "courseName": "Hukuk Seminerleri",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW107-S01",
+          "sectionId": "50479933",
+          "instructor": "",
+          "room": "Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW109",
+      "courseName": "Devlet Kuramları",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW109-S01",
+          "sectionId": "50479935",
+          "instructor": "",
+          "room": "Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:30",
+              "end": "11:20"
+            },
+            {
+              "day": "Wed",
+              "start": "12:30",
+              "end": "14:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW201",
+      "courseName": "Roma Özel Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW201-S01",
+          "sectionId": "50479146",
+          "instructor": "KEMAL ATASOY",
+          "room": "B-312",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW203",
+      "courseName": "Borçlar Hukuku Genel Hükümler I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW203-S01",
+          "sectionId": "50479148",
+          "instructor": "GİZEM ARSLAN",
+          "room": "B-410 - B-409",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:30",
+              "end": "14:20"
+            },
+            {
+              "day": "Thu",
+              "start": "09:30",
+              "end": "11:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW205",
+      "courseName": "İdare Hukuku I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW205-S01",
+          "sectionId": "50479151",
+          "instructor": "LEYLA ATEŞ",
+          "room": "B-409 - B-410",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "15:50"
+            },
+            {
+              "day": "Wed",
+              "start": "09:30",
+              "end": "11:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "LAW205-S02",
+          "sectionId": "50479154",
+          "instructor": "LEYLA ATEŞ",
+          "room": "B-410",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW207",
+      "courseName": "Ceza Hukuku Genel Hükümler I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW207-S01",
+          "sectionId": "50479156",
+          "instructor": "TUĞRUL BAYAZIT KATOĞLU",
+          "room": "B-409",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:30",
+              "end": "11:20"
+            },
+            {
+              "day": "Fri",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW209",
+      "courseName": "Hukuk Felsefesi",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW209-S01",
+          "sectionId": "50479159",
+          "instructor": "REYDA ERGÜN UMUROĞLU",
+          "room": "B-409",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:30",
+              "end": "15:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW211",
+      "courseName": "Milletlerarası Kamu Hukuku I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW211-S01",
+          "sectionId": "50479466",
+          "instructor": "ALFREDO CARLOS RİCARDO CROSATO NEUMANN",
+          "room": "B-312",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:30",
+              "end": "15:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW301",
+      "courseName": "Eşya Hukuku I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW301-S01",
+          "sectionId": "50479161",
+          "instructor": "ÖZGE UZUN KAZMACI",
+          "room": "Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:30",
+              "end": "12:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW303",
+      "courseName": "Ticari İşletme ve Kıymetli Evrak Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW303-S01",
+          "sectionId": "50479477",
+          "instructor": "ESRA HAMAMCIOĞLU - ONUR GÖRMEZ - ARGUN KARAMANLIOĞLU",
+          "room": "Cibali Salon - B-409",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "14:30",
+              "end": "16:20"
+            },
+            {
+              "day": "Thu",
+              "start": "12:30",
+              "end": "14:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW305",
+      "courseName": "Borçlar Hukuku Özel Hükümler",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW305-S01",
+          "sectionId": "50479163",
+          "instructor": "KEMAL ATASOY - NURAN TUĞÇE BİLGETEKİN",
+          "room": "B-410",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:30",
+              "end": "11:20"
+            },
+            {
+              "day": "Fri",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW309",
+      "courseName": "Medeni Usul Hukuku I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW309-S01",
+          "sectionId": "50479484",
+          "instructor": "MEHMET ERTAN YARDIM",
+          "room": "B-409 - B-311",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:30",
+              "end": "11:20"
+            },
+            {
+              "day": "Mon",
+              "start": "12:30",
+              "end": "14:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW311",
+      "courseName": "Ceza Hukuku Özel Hükümler",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW311-S01",
+          "sectionId": "50479487",
+          "instructor": "AYSUN ALTUNKAŞ",
+          "room": "Cibali Salon - B-410",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:30",
+              "end": "14:20"
+            },
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW313",
+      "courseName": "İnsan Hakları Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW313-S01",
+          "sectionId": "50479468",
+          "instructor": "OLGUN AKBULUT - BAŞAK EKİNCİ",
+          "room": "B-410 - B-311",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "13:50"
+            },
+            {
+              "day": "Mon",
+              "start": "09:30",
+              "end": "11:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW335",
+      "courseName": "Antropoloji ve Hukuk",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW335-S01",
+          "sectionId": "50479574",
+          "instructor": "REMZİ ORKUN GÜNER",
+          "room": "D-103",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW344",
+      "courseName": "Türk Hukuk Tarihi",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW344-S01",
+          "sectionId": "50479174",
+          "instructor": "TEVFİK CAN PEKER",
+          "room": "D-114",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW363",
+      "courseName": "Sinema ve Hukuk",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW363-S01",
+          "sectionId": "50479280",
+          "instructor": "DOĞUKAN BİNGÖL",
+          "room": "D-Snma-A",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW365",
+      "courseName": "Mantık ve Hukuk",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW365-S01",
+          "sectionId": "50479580",
+          "instructor": "YAVUZ CAN ASLAN",
+          "room": "D120(MS)",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW405",
+      "courseName": "Aile Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW405-S01",
+          "sectionId": "50479168",
+          "instructor": "AHMET AYAR",
+          "room": "B-312 - Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "11:30",
+              "end": "13:20"
+            },
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW409",
+      "courseName": "Bireysel İş Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW409-S01",
+          "sectionId": "50479171",
+          "instructor": "HANDE HEPER AYKAŞ - ALİ GÜZEL",
+          "room": "B-312",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW411",
+      "courseName": "İcra ve İflâs Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW411-S01",
+          "sectionId": "50479490",
+          "instructor": "MEHMET ERTAN YARDIM",
+          "room": "B-410 - B-312",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            },
+            {
+              "day": "Mon",
+              "start": "09:30",
+              "end": "11:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW413",
+      "courseName": "Sigorta Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW413-S01",
+          "sectionId": "50479251",
+          "instructor": "YAVUZ CAN ASLAN - ASLIHAN ERBAŞ AÇIKEL",
+          "room": "D-103",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW415",
+      "courseName": "Milletlerarası Özel Hukuk I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW415-S01",
+          "sectionId": "50479473",
+          "instructor": "EKİN ÖMEROĞLU",
+          "room": "B-409",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW417",
+      "courseName": "Ceza Muhakemesi Hukuku I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW417-S01",
+          "sectionId": "50479475",
+          "instructor": "AYSUN ALTUNKAŞ",
+          "room": "Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW433",
+      "courseName": "Bilişim Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW433-S01",
+          "sectionId": "50479176",
+          "instructor": "ESRA HAMAMCIOĞLU",
+          "room": "D-113",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW435",
+      "courseName": "Rekabet Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW435-S01",
+          "sectionId": "50479178",
+          "instructor": "ONUR GÖRMEZ",
+          "room": "D-113",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW437",
+      "courseName": "Deniz Ticaret Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW437-S01",
+          "sectionId": "50479180",
+          "instructor": "YAVUZ CAN ASLAN - ASLIHAN ERBAŞ AÇIKEL",
+          "room": "B-312",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW449",
+      "courseName": "Hukuk, Edebiyat ve Sanat",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW449-S01",
+          "sectionId": "50479582",
+          "instructor": "REYDA ERGÜN UMUROĞLU",
+          "room": "D-114",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW453",
+      "courseName": "Bankacılık Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW453-S01",
+          "sectionId": "50479208",
+          "instructor": "ESRA HAMAMCIOĞLU",
+          "room": "D-119",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW456",
+      "courseName": "Çevre Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW456-S01",
+          "sectionId": "50479183",
+          "instructor": "GİZEM ARSLAN",
+          "room": "B-210",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW466",
+      "courseName": "Kişisel Verilerin Korunması Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW466-S01",
+          "sectionId": "50479269",
+          "instructor": "ZELİHA GİZEM SAYIN",
+          "room": "D-113",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW471",
+      "courseName": "Yapay Zeka ve Çalışma Yaşamı",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW471-S01",
+          "sectionId": "50479523",
+          "instructor": "ALİ GÜZEL - HANDE HEPER AYKAŞ",
+          "room": "D-114",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LAW479",
+      "courseName": "Eleştirel Hukuk Teorileri",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LAW479-S01",
+          "sectionId": "50479656",
+          "instructor": "REMZİ ORKUN GÜNER",
+          "room": "B-218",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LW149",
+      "courseName": "Genel Kamu Hukuku I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LW149-S01",
+          "sectionId": "50479817",
+          "instructor": "",
+          "room": "D-103",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "18:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LW207",
+      "courseName": "Uluslararası Hukuk I",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LW207-S01",
+          "sectionId": "50478620",
+          "instructor": "ESRA DİLEK - ALFREDO CARLOS RİCARDO CROSATO NEUMANN",
+          "room": "D-104 - B-518",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:00",
+              "end": "12:50"
+            },
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LW313",
+      "courseName": "İdari Yargı",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LW313-S01",
+          "sectionId": "50478623",
+          "instructor": "NİLAY ARAT",
+          "room": "B-312",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "LW337",
+      "courseName": "Anayasa Hukuku",
+      "faculty": "Hukuk Fakültesi",
+      "program": "Hukuk Bölümü",
+      "sections": [
+        {
+          "sectionCode": "LW337-S01",
+          "sectionId": "50478616",
+          "instructor": "BAŞAK EKİNCİ",
+          "room": "B-503",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MAN201",
+      "courseName": "İstatistik",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "MAN201-S01",
+          "sectionId": "50478985",
+          "instructor": "MELTEM UCAL",
+          "room": "B-410",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MAN201-S02",
+          "sectionId": "50478987",
+          "instructor": "HASAN DAĞ",
+          "room": "PC Lab.1 - B-212 - PC Lab.2",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "14:50"
+            },
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MAN201-S03",
+          "sectionId": "50478991",
+          "instructor": "EBRU DİLAN",
+          "room": "B-210",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MAN201-S04",
+          "sectionId": "50478993",
+          "instructor": "BURAK DOĞRUYOL",
+          "room": "B-211",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MAT123",
+      "courseName": "Matematik II",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "İşletme",
+      "sections": [
+        {
+          "sectionCode": "MAT123-S01",
+          "sectionId": "50479435",
+          "instructor": "METEHAN İNCEGÜL",
+          "room": "B-410",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MAT123-S02",
+          "sectionId": "50479437",
+          "instructor": "METEHAN İNCEGÜL",
+          "room": "B-312",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MAT123-S03",
+          "sectionId": "50479439",
+          "instructor": "METEHAN İNCEGÜL",
+          "room": "B-501",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "courseCode": "MBG103",
       "courseName": "Biyoloji I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG103-S01",
@@ -1661,8 +5108,8 @@
     {
       "courseCode": "MBG116",
       "courseName": "Biyoloji Lab I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG116-S01",
@@ -1697,8 +5144,8 @@
     {
       "courseCode": "MBG201",
       "courseName": "Biyoorganik Kimya I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG201-S01",
@@ -1719,8 +5166,8 @@
     {
       "courseCode": "MBG205",
       "courseName": "Genetik",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG205-S01",
@@ -1741,8 +5188,8 @@
     {
       "courseCode": "MBG207",
       "courseName": "Genetik Lab",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG207-S01",
@@ -1777,8 +5224,8 @@
     {
       "courseCode": "MBG211",
       "courseName": "Biyoorganik Kimya I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG211-S01",
@@ -1799,8 +5246,8 @@
     {
       "courseCode": "MBG214",
       "courseName": "Biyostatistiğe Giriş",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG214-S01",
@@ -1821,8 +5268,8 @@
     {
       "courseCode": "MBG221",
       "courseName": "Biyoorganik Kimya Lab I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG221-S01",
@@ -1871,8 +5318,8 @@
     {
       "courseCode": "MBG301",
       "courseName": "Hücresel Biyoloji I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG301-S01",
@@ -1893,8 +5340,8 @@
     {
       "courseCode": "MBG303",
       "courseName": "Hücresel Biyoloji Lab I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG303-S01",
@@ -1929,8 +5376,8 @@
     {
       "courseCode": "MBG305",
       "courseName": "Biyokimya I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG305-S01",
@@ -1994,8 +5441,8 @@
     {
       "courseCode": "MBG307",
       "courseName": "Biyokimya I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG307-S01",
@@ -2016,8 +5463,8 @@
     {
       "courseCode": "MBG309",
       "courseName": "Python ile Programlamaya Giriş",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG309-S01",
@@ -2038,8 +5485,8 @@
     {
       "courseCode": "MBG315",
       "courseName": "Biyokimya Lab I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG315-S01",
@@ -2088,8 +5535,8 @@
     {
       "courseCode": "MBG320",
       "courseName": "Moleküler Modelleme ve Simülasyon",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG320-S01",
@@ -2110,8 +5557,8 @@
     {
       "courseCode": "MBG321",
       "courseName": "Moleküler Biyoloji ve Genetik I",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG321-S01",
@@ -2156,8 +5603,8 @@
     {
       "courseCode": "MBG401",
       "courseName": "Moleküler Biyolojide Modern Teknikler",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG401-S01",
@@ -2178,8 +5625,8 @@
     {
       "courseCode": "MBG425",
       "courseName": "İlaç Tasarım ve İlaç Etkileşimin Organik",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG425-S01",
@@ -2200,8 +5647,8 @@
     {
       "courseCode": "MBG428",
       "courseName": "Yapısal Biyoinformatik",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG428-S01",
@@ -2222,8 +5669,8 @@
     {
       "courseCode": "MBG433",
       "courseName": "Kanser Biyolojisi",
-      "faculty": "FENS",
-      "program": "MBG",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Moleküler Biyoloji ve Genetik",
       "sections": [
         {
           "sectionCode": "MBG433-S01",
@@ -2242,10 +5689,299 @@
       ]
     },
     {
+      "courseCode": "MIS111",
+      "courseName": "Yapay Zeka Okuryazarlığı ve Uygulamaları",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS111-S01",
+          "sectionId": "50479586",
+          "instructor": "İPEK ERDOĞMUŞ",
+          "room": "B-410",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS201",
+      "courseName": "BT Temelleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS201-S01",
+          "sectionId": "50478612",
+          "instructor": "İPEK ERDOĞMUŞ",
+          "room": "B-212",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MIS201-S02",
+          "sectionId": "50478614",
+          "instructor": "İPEK ERDOĞMUŞ",
+          "room": "B-401",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS203",
+      "courseName": "Web Programlama Dilleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS203-S01",
+          "sectionId": "50479076",
+          "instructor": "",
+          "room": "PC Lab.1 - B-522",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "17:00",
+              "end": "18:50"
+            },
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS210",
+      "courseName": "Staj I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS210-S01",
+          "sectionId": "50479068",
+          "instructor": "İPEK ERDOĞMUŞ",
+          "room": "",
+          "capacity": 10,
+          "meetings": [
+            {
+              "day": "Sun",
+              "start": "01:00",
+              "end": "01:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS310",
+      "courseName": "Staj II",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS310-S01",
+          "sectionId": "50479074",
+          "instructor": "İPEK ERDOĞMUŞ",
+          "room": "",
+          "capacity": 10,
+          "meetings": [
+            {
+              "day": "Sun",
+              "start": "03:00",
+              "end": "03:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS311",
+      "courseName": "Karar Destek Sistemleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS311-S01",
+          "sectionId": "50478627",
+          "instructor": "EBRU DİLAN",
+          "room": "PC Lab.1",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MIS311-S02",
+          "sectionId": "50478629",
+          "instructor": "EBRU DİLAN",
+          "room": "PC Lab.3",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS323",
+      "courseName": "İşletmeler için Veritabanı Tasarım ve Yö",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS323-S01",
+          "sectionId": "50478618",
+          "instructor": "EBRU DİLAN",
+          "room": "D-107",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS325",
+      "courseName": "Veri Madenciliği ve İş Zekasına Giriş",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS325-S01",
+          "sectionId": "50479070",
+          "instructor": "İPEK ERDOĞMUŞ",
+          "room": "PC Lab.1",
+          "capacity": 45,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MIS325-S02",
+          "sectionId": "50479072",
+          "instructor": "İPEK ERDOĞMUŞ",
+          "room": "PC Lab.3",
+          "capacity": 45,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS327",
+      "courseName": "Tam Yığın Geliştirme",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS327-S01",
+          "sectionId": "50479660",
+          "instructor": "METEHAN İNCEGÜL",
+          "room": "D-104",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "16:00",
+              "end": "18:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS403",
+      "courseName": "Kurumsal Bilgi Sistemleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS403-S01",
+          "sectionId": "50479803",
+          "instructor": "",
+          "room": "Galata Salon",
+          "capacity": 75,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MIS411",
+      "courseName": "Enformasyon Teknolojileri Proje Yönetimi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Yönetim Bilişim Sistemleri",
+      "sections": [
+        {
+          "sectionCode": "MIS411-S01",
+          "sectionId": "50478631",
+          "instructor": "EBRU DİLAN",
+          "room": "B-502",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "courseCode": "MTE201",
       "courseName": "Mühendislik Mekaniği",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE201-S01",
@@ -2266,8 +6002,8 @@
     {
       "courseCode": "MTE211",
       "courseName": "Teknik Çizim",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE211-S01",
@@ -2293,8 +6029,8 @@
     {
       "courseCode": "MTE293",
       "courseName": "Mantıksal Tasarım",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE293-S01",
@@ -2320,8 +6056,8 @@
     {
       "courseCode": "MTE401",
       "courseName": "Akademik Yazı",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE401-S01",
@@ -2342,8 +6078,8 @@
     {
       "courseCode": "MTE403",
       "courseName": "Mekatronik Sistem Tasarımı Projesi",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE403-S01",
@@ -2369,8 +6105,8 @@
     {
       "courseCode": "MTE411",
       "courseName": "Termodinamik",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE411-S01",
@@ -2391,8 +6127,8 @@
     {
       "courseCode": "MTE412",
       "courseName": "Bilgisayar Destekli İmalat Projesi",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE412-S01",
@@ -2418,8 +6154,8 @@
     {
       "courseCode": "MTE422",
       "courseName": "Bulanık Mantık Kontrol",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE422-S01",
@@ -2440,8 +6176,8 @@
     {
       "courseCode": "MTE424",
       "courseName": "Otomotiv Tahrik Sistemlerinde Sürdürüleb",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE424-S01",
@@ -2462,8 +6198,8 @@
     {
       "courseCode": "MTE491",
       "courseName": "Robot Tasarım Projesi",
-      "faculty": "FENS",
-      "program": "MTE",
+      "faculty": "Mühendislik ve Doğa Bilimleri Fakültesi",
+      "program": "Mekatronik Mühendisliği",
       "sections": [
         {
           "sectionCode": "MTE491-S01",
@@ -2481,6 +6217,2018 @@
               "day": "Tue",
               "start": "13:00",
               "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD101",
+      "courseName": "Yeni Medyaya Giriş",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD101-S01",
+          "sectionId": "50479614",
+          "instructor": "AYLİN SUNAM AUDRY",
+          "room": "B-522",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD103",
+      "courseName": "İletişim Teknolojileri Tarihi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD103-S01",
+          "sectionId": "50479338",
+          "instructor": "ONUR SESİGÜR",
+          "room": "B-218",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD201",
+      "courseName": "Dijital Topluluklar",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD201-S01",
+          "sectionId": "50479136",
+          "instructor": "AYLİN SUNAM AUDRY",
+          "room": "B-210",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD203",
+      "courseName": "Haber ve Hikaye Anlatıcılığı",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD203-S01",
+          "sectionId": "50479940",
+          "instructor": "",
+          "room": "B-223",
+          "capacity": 31,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD221",
+      "courseName": "Oyun Tasarım İlkeleri",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD221-S01",
+          "sectionId": "50479572",
+          "instructor": "ONUR SESİGÜR",
+          "room": "B-418-NM Lab",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD301",
+      "courseName": "Dönüşümcü Düşünce",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD301-S01",
+          "sectionId": "50479618",
+          "instructor": "İSMAİL HAKKI POLAT",
+          "room": "D-113",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD401",
+      "courseName": "Yeni Medyada Güncel Konular",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD401-S01",
+          "sectionId": "50479620",
+          "instructor": "GÖZDE CÖBEK",
+          "room": "D-112",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD411",
+      "courseName": "Veri Gazeteciliği",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD411-S01",
+          "sectionId": "50479898",
+          "instructor": "",
+          "room": "B-402.1-WLab",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD412",
+      "courseName": "Kriptopara ve Blokzincir",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD412-S01",
+          "sectionId": "50479140",
+          "instructor": "İSMAİL HAKKI POLAT",
+          "room": "B-518",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "16:30",
+              "end": "19:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "NMD412-S02",
+          "sectionId": "50479142",
+          "instructor": "İSMAİL HAKKI POLAT",
+          "room": "B-418-NM Lab",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "NMD414",
+      "courseName": "Kullanıcı Deneyimi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Yeni Medya ve İletişim",
+      "sections": [
+        {
+          "sectionCode": "NMD414-S01",
+          "sectionId": "50479900",
+          "instructor": "",
+          "room": "B-223",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR101",
+      "courseName": "Siyaset Bilimine Giriş I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR101-S01",
+          "sectionId": "50479427",
+          "instructor": "COŞKU ÇELİK",
+          "room": "Galata Salon",
+          "capacity": 90,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR105",
+      "courseName": "Sosyolojiye Giriş",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR105-S01",
+          "sectionId": "50479452",
+          "instructor": "SİBEL KARADAĞ TATAR",
+          "room": "B-503",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "PSIR105-S02",
+          "sectionId": "50479454",
+          "instructor": "ALİ TUNA KUYUCU",
+          "room": "B-503",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR203",
+      "courseName": "Türk Dış Politikası I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR203-S01",
+          "sectionId": "50479495",
+          "instructor": "ESRA DİLEK",
+          "room": "B-202",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR207",
+      "courseName": "Diplomasi Tarihi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR207-S01",
+          "sectionId": "50479497",
+          "instructor": "DOĞUŞ SÖNMEZ",
+          "room": "B-303",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR209",
+      "courseName": "Araştırma Yöntemleri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR209-S01",
+          "sectionId": "50479499",
+          "instructor": "DOĞUŞ SÖNMEZ",
+          "room": "B-503",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR217",
+      "courseName": "Siyaset Sosyolojisi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR217-S01",
+          "sectionId": "50479501",
+          "instructor": "SİBEL KARADAĞ TATAR",
+          "room": "B-502",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR301",
+      "courseName": "Uluslararası İlişkiler Teorisi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR301-S01",
+          "sectionId": "50479503",
+          "instructor": "MUSTAFA AYDIN",
+          "room": "B-303",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR303",
+      "courseName": "Karşılaştırmalı Siyaset",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR303-S01",
+          "sectionId": "50479505",
+          "instructor": "FATMA FULYA HİSARLIOĞLU",
+          "room": "B-210",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR305",
+      "courseName": "Kamu Siyasası ve Yönetimi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR305-S01",
+          "sectionId": "50479507",
+          "instructor": "COŞKU ÇELİK",
+          "room": "B-211",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR319",
+      "courseName": "Rusya Siyaseti ve Dış Politikası",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR319-S01",
+          "sectionId": "50479509",
+          "instructor": "DOĞUŞ SÖNMEZ",
+          "room": "B-518",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR325",
+      "courseName": "Siyasal Partiler ve Seçmen Davranışı",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR325-S01",
+          "sectionId": "50479511",
+          "instructor": "FATMA FULYA HİSARLIOĞLU",
+          "room": "B-516",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR364",
+      "courseName": "Stratejik Analiz ve Çatışma Çözümü",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR364-S01",
+          "sectionId": "50479513",
+          "instructor": "ESRA DİLEK",
+          "room": "D-107",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR401",
+      "courseName": "Uluslararası Politik Ekonomi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR401-S01",
+          "sectionId": "50479515",
+          "instructor": "HÜSEYİN EMRAH KARAOĞUZ",
+          "room": "B-518",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR403",
+      "courseName": "Türkiye’de Kamu Yönetimi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR403-S01",
+          "sectionId": "50479517",
+          "instructor": "COŞKU ÇELİK",
+          "room": "B-211",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR404",
+      "courseName": "Uluslararası Güvenlik",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR404-S01",
+          "sectionId": "50479519",
+          "instructor": "SİNEM AKGÜL AÇIKMEŞE",
+          "room": "B-522",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSIR474",
+      "courseName": "Sinema Üzerinden Uluslararası İlişkiler",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Siyaset Bilimi ve Uluslararası İlişkiler",
+      "sections": [
+        {
+          "sectionCode": "PSIR474-S01",
+          "sectionId": "50479521",
+          "instructor": "FATMA FULYA HİSARLIOĞLU",
+          "room": "D-Snma-A",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC103",
+      "courseName": "Psikoloji Teori ve Kavramlarına Giriş I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC103-S01",
+          "sectionId": "50479444",
+          "instructor": "",
+          "room": "Fener Salonu",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC201",
+      "courseName": "Psikolojide Araştırma Yöntemleri I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC201-S01",
+          "sectionId": "50479013",
+          "instructor": "SEZİN ÖNER YAMAN",
+          "room": "B-312",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC211",
+      "courseName": "Gelişim Psikolojisi I",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC211-S01",
+          "sectionId": "50479446",
+          "instructor": "",
+          "room": "Galata Salon",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC223",
+      "courseName": "Sosyal Psikoloji",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC223-S01",
+          "sectionId": "50479011",
+          "instructor": "BURAK DOĞRUYOL",
+          "room": "Fener Salonu",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC233",
+      "courseName": "Öğrenme Psikolojisi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC233-S01",
+          "sectionId": "50479021",
+          "instructor": "AHU GÖKÇE",
+          "room": "B-311",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC302",
+      "courseName": "Dikkat ve Algı",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC302-S01",
+          "sectionId": "50479023",
+          "instructor": "AHU GÖKÇE",
+          "room": "D-114",
+          "capacity": 45,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC312",
+      "courseName": "Bilişsel Psikolojide Seçme Konular II",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC312-S01",
+          "sectionId": "50479025",
+          "instructor": "GYULTEN SHABAN HYUSEIN ÖZKAN",
+          "room": "Fener Salonu",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC335",
+      "courseName": "Fizyolojik Psikoloji",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC335-S01",
+          "sectionId": "50479015",
+          "instructor": "GYULTEN SHABAN HYUSEIN ÖZKAN",
+          "room": "B-212",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC341",
+      "courseName": "Kişilik Teorileri",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC341-S01",
+          "sectionId": "50479017",
+          "instructor": "SELAHATTİN ADİL SARIBAY",
+          "room": "Galata Salon",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC345",
+      "courseName": "Psikolojide Veri Analizi",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC345-S01",
+          "sectionId": "50479448",
+          "instructor": "GYULTEN SHABAN HYUSEIN ÖZKAN",
+          "room": "Fener Salonu",
+          "capacity": 90,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC401",
+      "courseName": "Psikolojide Ölçme Değerlendirme",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC401-S01",
+          "sectionId": "50479450",
+          "instructor": "ONURCAN YILMAZ",
+          "room": "Galata Salon",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC412",
+      "courseName": "Uygulamalı Bellek ve Biliş",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC412-S01",
+          "sectionId": "50479790",
+          "instructor": "SEZİN ÖNER YAMAN",
+          "room": "B-223",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC419",
+      "courseName": "Davranışsal Çalışmalar Oluşturma",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC419-S01",
+          "sectionId": "50479788",
+          "instructor": "AHU GÖKÇE",
+          "room": "B-303",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC441",
+      "courseName": "Klinik Psikoloji",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC441-S01",
+          "sectionId": "50479019",
+          "instructor": "CEREN KOÇ",
+          "room": "B-301",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC453",
+      "courseName": "Klinik Psikolojide Seçme Konular",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC453-S01",
+          "sectionId": "50479027",
+          "instructor": "",
+          "room": "D-119",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:30",
+              "end": "13:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "PSYC453-S02",
+          "sectionId": "50479029",
+          "instructor": "",
+          "room": "B-516",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PSYC491",
+      "courseName": "Bağımlılık ve Psikoloji",
+      "faculty": "İktisadi, İdari ve Sosyal Bilimler Fakültesi",
+      "program": "Psikoloji",
+      "sections": [
+        {
+          "sectionCode": "PSYC491-S01",
+          "sectionId": "50479187",
+          "instructor": "CEREN KOÇ",
+          "room": "B-302",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PUB101",
+      "courseName": "Halkla İlişkilerin Temelleri",
+      "faculty": "İletişim Fakültesi",
+      "program": "Halkla İlişkiler ve Tanıtım",
+      "sections": [
+        {
+          "sectionCode": "PUB101-S01",
+          "sectionId": "50479334",
+          "instructor": "MİNE BERTAN YILMAZ",
+          "room": "D-107",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PUB103",
+      "courseName": "Halkla İlişkilerde Sosyal ve Siyasi Konu",
+      "faculty": "İletişim Fakültesi",
+      "program": "Halkla İlişkiler ve Tanıtım",
+      "sections": [
+        {
+          "sectionCode": "PUB103-S01",
+          "sectionId": "50479622",
+          "instructor": "NEZAKET DEFNE KARAOSMANOĞLU",
+          "room": "D-112",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PUB203",
+      "courseName": "Siyasa Yapımı ve Analizi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Halkla İlişkiler ve Tanıtım",
+      "sections": [
+        {
+          "sectionCode": "PUB203-S01",
+          "sectionId": "50479624",
+          "instructor": "BANU BAYBARS",
+          "room": "D-113",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PUB301",
+      "courseName": "Kampanya Tasarımı ve Yönetimi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Halkla İlişkiler ve Tanıtım",
+      "sections": [
+        {
+          "sectionCode": "PUB301-S01",
+          "sectionId": "50479626",
+          "instructor": "BANU BAYBARS",
+          "room": "D-118",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PUB303",
+      "courseName": "Stratejik Dijital Halkla İlişkiler",
+      "faculty": "İletişim Fakültesi",
+      "program": "Halkla İlişkiler ve Tanıtım",
+      "sections": [
+        {
+          "sectionCode": "PUB303-S01",
+          "sectionId": "50479628",
+          "instructor": "AFİFE İDİL AKIN ACAR",
+          "room": "B-402",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "PUB304",
+      "courseName": "İtibar ve Algı Yönetimi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Halkla İlişkiler ve Tanıtım",
+      "sections": [
+        {
+          "sectionCode": "PUB304-S01",
+          "sectionId": "50479942",
+          "instructor": "",
+          "room": "B-402",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "11:00",
+              "end": "13:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC101",
+      "courseName": "İzleme Kültürü",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC101-S01",
+          "sectionId": "50479346",
+          "instructor": "ESİN PAÇA CENGİZ",
+          "room": "D-Snma-B",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC103",
+      "courseName": "Prodüksiyonun Temelleri",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC103-S01",
+          "sectionId": "50479348",
+          "instructor": "",
+          "room": "D-Snma-B",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC105",
+      "courseName": "Erken Sinema Tarihi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC105-S01",
+          "sectionId": "50479350",
+          "instructor": "MELİS BEHLİL",
+          "room": "D-Snma-B",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC201",
+      "courseName": "Yapım Tasarım ve Planlama",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC201-S01",
+          "sectionId": "50479632",
+          "instructor": "ESİN PAÇA CENGİZ",
+          "room": "B-415-RTS St",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "14:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC203",
+      "courseName": "Yayın Kültürü",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC203-S01",
+          "sectionId": "50479352",
+          "instructor": "ELİF AKÇALI",
+          "room": "D-113",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC231",
+      "courseName": "Avrupa Sinemaları",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC231-S01",
+          "sectionId": "50479132",
+          "instructor": "MELİS BEHLİL",
+          "room": "D-Snma-A",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC232",
+      "courseName": "Senaryo",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC232-S01",
+          "sectionId": "50479944",
+          "instructor": "",
+          "room": "D-Snma-B",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC301",
+      "courseName": "Proje Geliştirme",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC301-S01",
+          "sectionId": "50479893",
+          "instructor": "",
+          "room": "B-415-RTS St",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "10:00",
+              "end": "13:50"
+            },
+            {
+              "day": "Wed",
+              "start": "18:00",
+              "end": "21:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC303",
+      "courseName": "Pratikte Kuram",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC303-S01",
+          "sectionId": "50479130",
+          "instructor": "DEFNE TÜZÜN",
+          "room": "D-Snma-A",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC335",
+      "courseName": "Sinematografi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC335-S01",
+          "sectionId": "50479946",
+          "instructor": "",
+          "room": "B-415-RTS St",
+          "capacity": 15,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC336",
+      "courseName": "Ses Tasarımı",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC336-S01",
+          "sectionId": "50479638",
+          "instructor": "",
+          "room": "D-Snma-B",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC337",
+      "courseName": "Kurgu",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC337-S01",
+          "sectionId": "50479640",
+          "instructor": "ELİF AKÇALI",
+          "room": "B-414-Kur.At",
+          "capacity": 15,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC434",
+      "courseName": "Deneysel Sinema",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC434-S01",
+          "sectionId": "50479642",
+          "instructor": "",
+          "room": "D-114",
+          "capacity": 15,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "RTC443",
+      "courseName": "Berimsel Sinema",
+      "faculty": "İletişim Fakültesi",
+      "program": "Radyo, Televizyon ve Sinema",
+      "sections": [
+        {
+          "sectionCode": "RTC443-S01",
+          "sectionId": "50479948",
+          "instructor": "",
+          "room": "B-415-RTS St",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "TLL101",
+      "courseName": "Türkçe Eleştirel Okuma ve Yazma I",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "TLL101-S01",
+          "sectionId": "50478718",
+          "instructor": "DORUK TATAR",
+          "room": "B-401",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S02",
+          "sectionId": "50478720",
+          "instructor": "DORUK TATAR",
+          "room": "B-301",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S03",
+          "sectionId": "50478722",
+          "instructor": "BAŞAK DENİZ ÖZDOĞAN DOĞDUASLAN",
+          "room": "B-301",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S04",
+          "sectionId": "50478724",
+          "instructor": "BAŞAK DENİZ ÖZDOĞAN DOĞDUASLAN",
+          "room": "B-218",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S05",
+          "sectionId": "50478726",
+          "instructor": "BAŞAK DENİZ ÖZDOĞAN DOĞDUASLAN",
+          "room": "B-302",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S06",
+          "sectionId": "50478728",
+          "instructor": "BİLGE ULUSMAN",
+          "room": "B-401",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S07",
+          "sectionId": "50478730",
+          "instructor": "AYŞEGÜL POMAKOĞLU",
+          "room": "B-302",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S08",
+          "sectionId": "50478732",
+          "instructor": "AYŞEGÜL POMAKOĞLU",
+          "room": "B-401",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S09",
+          "sectionId": "50478734",
+          "instructor": "BİLGE ULUSMAN",
+          "room": "B-210",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S10",
+          "sectionId": "50478736",
+          "instructor": "ŞEHNAZ ŞİŞMANOĞLU ŞİMŞEK",
+          "room": "B-401",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S11",
+          "sectionId": "50478738",
+          "instructor": "BİLGE ULUSMAN",
+          "room": "B-401",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S12",
+          "sectionId": "50478740",
+          "instructor": "DORUK TATAR",
+          "room": "B-401",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S13",
+          "sectionId": "50478742",
+          "instructor": "YÜCE AYDOĞAN",
+          "room": "B-218",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S14",
+          "sectionId": "50478744",
+          "instructor": "ŞEHNAZ ŞİŞMANOĞLU ŞİMŞEK",
+          "room": "B-223",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S15",
+          "sectionId": "50478746",
+          "instructor": "YÜCE AYDOĞAN",
+          "room": "B-401",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S16",
+          "sectionId": "50478748",
+          "instructor": "ŞEHNAZ ŞİŞMANOĞLU ŞİMŞEK",
+          "room": "B-218",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S17",
+          "sectionId": "50478750",
+          "instructor": "YÜCE AYDOĞAN",
+          "room": "B-210",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL101-S18",
+          "sectionId": "50478752",
+          "instructor": "AYŞEGÜL POMAKOĞLU",
+          "room": "B-301",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "TLL103",
+      "courseName": "Türkiye'de Kültür ve Toplum I",
+      "faculty": "Ortak Dersler Fakültesi",
+      "program": "Ortak Dersler",
+      "sections": [
+        {
+          "sectionCode": "TLL103-S01",
+          "sectionId": "50479240",
+          "instructor": "NURAN BUKET CENGİZ",
+          "room": "B-522",
+          "capacity": 83,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL103-S02",
+          "sectionId": "50479242",
+          "instructor": "NURAN BUKET CENGİZ",
+          "room": "B-522",
+          "capacity": 83,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "TLL103-S03",
+          "sectionId": "50479244",
+          "instructor": "NURAN BUKET CENGİZ",
+          "room": "B-522",
+          "capacity": 83,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD103",
+      "courseName": "Tasarımın Temelleri",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD103-S01",
+          "sectionId": "50479919",
+          "instructor": "",
+          "room": "DesignLab",
+          "capacity": 46,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD106",
+      "courseName": "Spekülatif Tasarım",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD106-S01",
+          "sectionId": "50479644",
+          "instructor": "DORUK KUMKUMOĞLU",
+          "room": "DesignLab",
+          "capacity": 37,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD207",
+      "courseName": "Sanat ve Tasarım Tarihi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD207-S01",
+          "sectionId": "50479646",
+          "instructor": "EMRE SÜNTER",
+          "room": "B-518",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD209",
+      "courseName": "Tipografi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD209-S01",
+          "sectionId": "50479114",
+          "instructor": "",
+          "room": "DesignLab",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD216",
+      "courseName": "Fotografi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD216-S01",
+          "sectionId": "50479119",
+          "instructor": "DORUK KUMKUMOĞLU",
+          "room": "DesignLab",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD217",
+      "courseName": "Storyboard",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD217-S01",
+          "sectionId": "50479889",
+          "instructor": "",
+          "room": "D-113",
+          "capacity": 25,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD227",
+      "courseName": "1980 Sonrası Türkiye’de Popüler Kültür",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD227-S01",
+          "sectionId": "50479648",
+          "instructor": "NORA TATARYAN ASLAN",
+          "room": "D-113",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "11:00",
+              "end": "13:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD319",
+      "courseName": "Hareketli Grafik",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD319-S01",
+          "sectionId": "50479185",
+          "instructor": "",
+          "room": "DesignLab",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD321",
+      "courseName": "Görsel Kültür Analizi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD321-S01",
+          "sectionId": "50479650",
+          "instructor": "TALAT BALCA ARDA",
+          "room": "B-223",
+          "capacity": 47,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "12:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD323",
+      "courseName": "Tasarım Atölyesi I",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD323-S01",
+          "sectionId": "50479116",
+          "instructor": "DORUK KUMKUMOĞLU",
+          "room": "DesignLab",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:30",
+              "end": "17:20"
+            },
+            {
+              "day": "Mon",
+              "start": "18:00",
+              "end": "21:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD327",
+      "courseName": "Dijital İllüstrasyon",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD327-S01",
+          "sectionId": "50479891",
+          "instructor": "",
+          "room": "DesignLab",
+          "capacity": 29,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD424",
+      "courseName": "Şehir Atölyesi",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD424-S01",
+          "sectionId": "50479125",
+          "instructor": "MİNE YILDIRIM",
+          "room": "D-104",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "VCD434",
+      "courseName": "Tasarım ve Sanatta Yeni Tartışmalar",
+      "faculty": "İletişim Fakültesi",
+      "program": "Görsel İletişim Tasarımı",
+      "sections": [
+        {
+          "sectionCode": "VCD434-S01",
+          "sectionId": "50479652",
+          "instructor": "TALAT BALCA ARDA",
+          "room": "B-223",
+          "capacity": 43,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
             }
           ]
         }
