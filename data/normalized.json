@@ -1,6 +1,372 @@
 {
   "courses": [
     {
+      "courseCode": "AI101",
+      "courseName": "Veri Bilimi ve Mühendisliğine Giriş",
+      "faculty": "FENS",
+      "program": "AI",
+      "sections": [
+        {
+          "sectionCode": "AI101-S01",
+          "sectionId": "50479664",
+          "instructor": "",
+          "room": "D-114",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "AI103",
+      "courseName": "Etik ve Veri Gizliliği",
+      "faculty": "FENS",
+      "program": "AI",
+      "sections": [
+        {
+          "sectionCode": "AI103-S01",
+          "sectionId": "50479666",
+          "instructor": "ARİF SELÇUK ÖĞRENCİ",
+          "room": "D-107",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "AI141",
+      "courseName": "Bilgisayar Programlama I",
+      "faculty": "FENS",
+      "program": "AI",
+      "sections": [
+        {
+          "sectionCode": "AI141-S01",
+          "sectionId": "50479668",
+          "instructor": "TONGUÇ YAVUZ - BURAK ŞEN",
+          "room": "B-110 My Lab - B-211",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CHEM101",
+      "courseName": "Genel Kimya I",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "CHEM101-S01",
+          "sectionId": "50480007",
+          "instructor": "EBRU DEMET AKTEN",
+          "room": "D-119",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CHEM121",
+      "courseName": "Genel Kimya Lab I",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "CHEM121-S01",
+          "sectionId": "50480009",
+          "instructor": "EBRU DEMET AKTEN",
+          "room": "A-012 MBG La",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "CHEM121-S02",
+          "sectionId": "50480011",
+          "instructor": "EBRU DEMET AKTEN",
+          "room": "A-012 MBG La",
+          "capacity": 13,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "CHEM121-S03",
+          "sectionId": "50480147",
+          "instructor": "EBRU DEMET AKTEN",
+          "room": "A-012 MBG La",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "16:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV261",
+      "courseName": "Mukavemet",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV261-S01",
+          "sectionId": "50479271",
+          "instructor": "SALİH TİLEYLİOĞLU",
+          "room": "H-203",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV321",
+      "courseName": "Şantiye Yönetimi",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV321-S01",
+          "sectionId": "50479189",
+          "instructor": "GÖKHAN KİRKİL",
+          "room": "H-203",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV341",
+      "courseName": "Hidrolik",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV341-S01",
+          "sectionId": "50478706",
+          "instructor": "GÖKHAN KİRKİL",
+          "room": "H-203",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV351",
+      "courseName": "Çelik Yapıların Tasarımı",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV351-S01",
+          "sectionId": "50479195",
+          "instructor": "",
+          "room": "H-203 - H-202",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV371",
+      "courseName": "Zemin Özelliklerinin İncelenmesi",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV371-S01",
+          "sectionId": "50478703",
+          "instructor": "SALİH TİLEYLİOĞLU",
+          "room": "H-203 - H-202",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV432",
+      "courseName": "Demiryolu / Otoyol Tasarımı",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV432-S01",
+          "sectionId": "50479902",
+          "instructor": "",
+          "room": "H-203",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV451",
+      "courseName": "Yapı Dinamiğinin İncelenmesi",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV451-S01",
+          "sectionId": "50479819",
+          "instructor": "",
+          "room": "H-203 - D-118",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV471",
+      "courseName": "Oturma Sorunu",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV471-S01",
+          "sectionId": "50479193",
+          "instructor": "SALİH TİLEYLİOĞLU",
+          "room": "H-203",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CIV491",
+      "courseName": "Betonarme Yapı Tasarımı",
+      "faculty": "FENS",
+      "program": "CIV",
+      "sections": [
+        {
+          "sectionCode": "CIV491-S01",
+          "sectionId": "50479822",
+          "instructor": "",
+          "room": "H-203 - H-202",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "day": "Wed",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "courseCode": "CMPE107",
       "courseName": "Teknik Yazım ve Sunum",
       "faculty": "FENS",
@@ -368,6 +734,1753 @@
               "day": "Wed",
               "start": "10:00",
               "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE203",
+      "courseName": "Devre Analizi I",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE203-S01",
+          "sectionId": "50479531",
+          "instructor": "MEHMET TİMUR AYDEMİR",
+          "room": "B-516 - LabB-El.Elk.",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE207",
+      "courseName": "Elektrik-Elektronik Mühendisliği İçin Ar",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE207-S01",
+          "sectionId": "50479773",
+          "instructor": "YALÇIN ŞADİ",
+          "room": "PC Lab.1",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE304",
+      "courseName": "Elektronik II",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE304-S01",
+          "sectionId": "50479534",
+          "instructor": "ARİF SELÇUK ÖĞRENCİ",
+          "room": "LabB-El.Elk. - D-119",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "16:50"
+            },
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE305",
+      "courseName": "Mikrodenetleyiciler",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE305-S01",
+          "sectionId": "50479537",
+          "instructor": "AKHTAR SAEED",
+          "room": "MikroLab - D-103",
+          "capacity": 48,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            },
+            {
+              "day": "Wed",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE307",
+      "courseName": "Sinyaller ve Sistemler",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE307-S01",
+          "sectionId": "50479759",
+          "instructor": "YALÇIN ŞADİ",
+          "room": "B-223",
+          "capacity": 48,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE309",
+      "courseName": "Yazılım-Donanım Entegrasyonu Projesi",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE309-S01",
+          "sectionId": "50479775",
+          "instructor": "AKHTAR SAEED",
+          "room": "B-303",
+          "capacity": 24,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE312",
+      "courseName": "Elektromekanik Enerji Dönüşümü",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE312-S01",
+          "sectionId": "50479769",
+          "instructor": "AYDOĞAN ÖZDEMİR",
+          "room": "LabB-El.Elk. - B-401",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            },
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE409",
+      "courseName": "Haberleşme Projesi",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE409-S01",
+          "sectionId": "50479777",
+          "instructor": "ERDAL PANAYIRCI",
+          "room": "PC Lab.1 - D-114 - D-103",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "15:00",
+              "end": "16:50"
+            },
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:20"
+            },
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "14:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE413",
+      "courseName": "Duyurucu Ağları",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE413-S01",
+          "sectionId": "50479781",
+          "instructor": "YALÇIN ŞADİ",
+          "room": "PC Lab.2 - B-218",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Wed",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE432",
+      "courseName": "Güç Elektroniği",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE432-S01",
+          "sectionId": "50479570",
+          "instructor": "MEHMET TİMUR AYDEMİR",
+          "room": "B-518",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "EEE436",
+      "courseName": "Yüksek Gerilim Tekniği",
+      "faculty": "FENS",
+      "program": "EEE",
+      "sections": [
+        {
+          "sectionCode": "EEE436-S01",
+          "sectionId": "50479784",
+          "instructor": "AYDOĞAN ÖZDEMİR",
+          "room": "D-114",
+          "capacity": 36,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS101",
+      "courseName": "Mühendislik Matematiği I",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "FENS101-S01",
+          "sectionId": "50479540",
+          "instructor": "AYŞE HÜMEYRA BİLGE",
+          "room": "Fener Salonu",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:00",
+              "end": "13:50"
+            },
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS101-S02",
+          "sectionId": "50479543",
+          "instructor": "AYŞE HÜMEYRA BİLGE",
+          "room": "Fener Salonu",
+          "capacity": 140,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "13:50"
+            },
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS105",
+      "courseName": "Doğrusal Cebir",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "FENS105-S01",
+          "sectionId": "50479546",
+          "instructor": "AYŞE HÜMEYRA BİLGE",
+          "room": "B-211",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS105-S02",
+          "sectionId": "50479548",
+          "instructor": "ZEYNEP BEKTAŞ",
+          "room": "B-212",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS111",
+      "courseName": "Fizik I",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "FENS111-S01",
+          "sectionId": "50479550",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS111-S02",
+          "sectionId": "50479552",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "Cibali Salon",
+          "capacity": 150,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS200",
+      "courseName": "Olasılık ve İstatistik",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "FENS200-S01",
+          "sectionId": "50480031",
+          "instructor": "AYŞE HÜMEYRA BİLGE - GÖKHAN KİRKİL - ÖZKAN KARABACAK - YALÇIN ŞADİ",
+          "room": "Cibali Salon",
+          "capacity": 170,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS200-S02",
+          "sectionId": "50480036",
+          "instructor": "ONUR PUSULUK",
+          "room": "B-311",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS203",
+      "courseName": "Malzemeler",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "FENS203-S01",
+          "sectionId": "50478714",
+          "instructor": "ERTUĞRUL TOLGA DURAN",
+          "room": "B-311",
+          "capacity": 80,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS203-S02",
+          "sectionId": "50478716",
+          "instructor": "ERTUĞRUL TOLGA DURAN",
+          "room": "B-212",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "16:30",
+              "end": "19:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS204",
+      "courseName": "Mühendislik Matematiği III",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "FENS204-S01",
+          "sectionId": "50479554",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "Cibali Salon - B-410",
+          "capacity": 125,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "12:00",
+              "end": "13:50"
+            },
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS204-S02",
+          "sectionId": "50479557",
+          "instructor": "ARASH MOHAMMADIAN REZAEINAZHAD",
+          "room": "B-211",
+          "capacity": 125,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "12:00",
+              "end": "13:50"
+            },
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "FENS401",
+      "courseName": "Mühendislik Tasarım Projesi I",
+      "faculty": "FENS",
+      "program": "FENS",
+      "sections": [
+        {
+          "sectionCode": "FENS401-S01",
+          "sectionId": "50480038",
+          "instructor": "İLKTAN AR",
+          "room": "D Büyük Sln.",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS401-S02",
+          "sectionId": "50480040",
+          "instructor": "İLKTAN AR",
+          "room": "D Büyük Sln.",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS401-S03",
+          "sectionId": "50480042",
+          "instructor": "ARİF SELÇUK ÖĞRENCİ - GÖKHAN KİRKİL - İLKTAN AR - YALÇIN ŞADİ",
+          "room": "D Büyük Sln.",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS401-S04",
+          "sectionId": "50480047",
+          "instructor": "BURAK ŞEN",
+          "room": "D Büyük Sln.",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS401-S05",
+          "sectionId": "50480049",
+          "instructor": "BURAK ŞEN",
+          "room": "D Büyük Sln.",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS401-S06",
+          "sectionId": "50480051",
+          "instructor": "MİNE SARAÇ STROPPA",
+          "room": "D Büyük Sln.",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "FENS401-S07",
+          "sectionId": "50480053",
+          "instructor": "GÖKHAN KİRKİL",
+          "room": "D Büyük Sln.",
+          "capacity": 5,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE102",
+      "courseName": "Endüstri Mühendisliğinin Prensipleri",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE102-S01",
+          "sectionId": "50479560",
+          "instructor": "KEREM ŞURĞUN",
+          "room": "B-312",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE214",
+      "courseName": "Endüstri Mühendisleri İçin Programlama A",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE214-S01",
+          "sectionId": "50479079",
+          "instructor": "BURAK ŞEN",
+          "room": "B-110 My Lab",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "INE214-S02",
+          "sectionId": "50479081",
+          "instructor": "BURAK ŞEN",
+          "room": "B-110 My Lab",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE311",
+      "courseName": "Yöneylem Araştırması I",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE311-S01",
+          "sectionId": "50479083",
+          "instructor": "FUNDA SAMANLIOĞLU",
+          "room": "B-522",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE313",
+      "courseName": "İstatistiksel Karar Verme",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE313-S01",
+          "sectionId": "50479085",
+          "instructor": "ZEYNEP BEKTAŞ",
+          "room": "B-311",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE317",
+      "courseName": "Çok Amaçlı Karar Verme",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE317-S01",
+          "sectionId": "50479089",
+          "instructor": "FUNDA SAMANLIOĞLU",
+          "room": "B-516",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE319",
+      "courseName": "Tedarik Zinciri Yönetimi",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE319-S01",
+          "sectionId": "50479274",
+          "instructor": "KEREM ŞURĞUN",
+          "room": "B-522",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE321",
+      "courseName": "Tesis Tasarımı ve Fabrika Yerleşimi",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE321-S01",
+          "sectionId": "50479091",
+          "instructor": "ZEYNEP BEKTAŞ",
+          "room": "D-104",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE351",
+      "courseName": "Endüstri Mühendisliği için Hesaplama Yön",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE351-S01",
+          "sectionId": "50479093",
+          "instructor": "AYŞE HÜMEYRA BİLGE",
+          "room": "B-312",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE401",
+      "courseName": "Üretim Planlama ve Kontrol",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE401-S01",
+          "sectionId": "50479087",
+          "instructor": "AHMET DENİZ YÜCEKAYA",
+          "room": "B-212",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE409",
+      "courseName": "Karar Analizi",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE409-S01",
+          "sectionId": "50479249",
+          "instructor": "TONGUÇ YAVUZ",
+          "room": "B-302",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE425",
+      "courseName": "Stokastik Süreçler",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE425-S01",
+          "sectionId": "50479095",
+          "instructor": "TONGUÇ YAVUZ",
+          "room": "D-104",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "INE432",
+      "courseName": "Endüstriyel Ekosistem",
+      "faculty": "FENS",
+      "program": "IE",
+      "sections": [
+        {
+          "sectionCode": "INE432-S01",
+          "sectionId": "50479658",
+          "instructor": "ŞEVKET VOLKAN EDİGER",
+          "room": "B-522",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG103",
+      "courseName": "Biyoloji I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG103-S01",
+          "sectionId": "50479680",
+          "instructor": "FARZANEH LARTİ",
+          "room": "D-119",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "15:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG116",
+      "courseName": "Biyoloji Lab I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG116-S01",
+          "sectionId": "50479682",
+          "instructor": "FARZANEH LARTİ",
+          "room": "A-012 MBG La",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "11:00",
+              "end": "12:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG116-S02",
+          "sectionId": "50479684",
+          "instructor": "FARZANEH LARTİ",
+          "room": "A-012 MBG La",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG201",
+      "courseName": "Biyoorganik Kimya I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG201-S01",
+          "sectionId": "50479686",
+          "instructor": "KEMAL YELEKÇİ",
+          "room": "B-210",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG205",
+      "courseName": "Genetik",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG205-S01",
+          "sectionId": "50479694",
+          "instructor": "FARZANEH LARTİ",
+          "room": "D-119",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG207",
+      "courseName": "Genetik Lab",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG207-S01",
+          "sectionId": "50479696",
+          "instructor": "FARZANEH LARTİ",
+          "room": "A-012 MBG La",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG207-S02",
+          "sectionId": "50479698",
+          "instructor": "FARZANEH LARTİ",
+          "room": "A-012 MBG La",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:30",
+              "end": "15:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG211",
+      "courseName": "Biyoorganik Kimya I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG211-S01",
+          "sectionId": "50479218",
+          "instructor": "KEMAL YELEKÇİ",
+          "room": "B-210",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG214",
+      "courseName": "Biyostatistiğe Giriş",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG214-S01",
+          "sectionId": "50479562",
+          "instructor": "EBRU DEMET AKTEN",
+          "room": "B-501",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "16:30",
+              "end": "19:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG221",
+      "courseName": "Biyoorganik Kimya Lab I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG221-S01",
+          "sectionId": "50479688",
+          "instructor": "KEMAL YELEKÇİ",
+          "room": "A-012 MBG La",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG221-S02",
+          "sectionId": "50479690",
+          "instructor": "KEMAL YELEKÇİ",
+          "room": "D-104",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG221-S03",
+          "sectionId": "50479692",
+          "instructor": "KEMAL YELEKÇİ",
+          "room": "A-012 MBG La",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "16:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG301",
+      "courseName": "Hücresel Biyoloji I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG301-S01",
+          "sectionId": "50479700",
+          "instructor": "NURAY SÖĞÜNMEZ ERDOĞAN",
+          "room": "D-104",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG303",
+      "courseName": "Hücresel Biyoloji Lab I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG303-S01",
+          "sectionId": "50479702",
+          "instructor": "NURAY SÖĞÜNMEZ ERDOĞAN",
+          "room": "A-012 MBG La",
+          "capacity": 15,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG303-S02",
+          "sectionId": "50479704",
+          "instructor": "NURAY SÖĞÜNMEZ ERDOĞAN",
+          "room": "A-012 MBG La",
+          "capacity": 15,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "15:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG305",
+      "courseName": "Biyokimya I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG305-S01",
+          "sectionId": "50479254",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "A-012 MBG La - D-104",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG305-S02",
+          "sectionId": "50479257",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "A-012 MBG La - D-104",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG305-S03",
+          "sectionId": "50479260",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "A-012 MBG La - D-104",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "16:00",
+              "end": "17:50"
+            },
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG307",
+      "courseName": "Biyokimya I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG307-S01",
+          "sectionId": "50479706",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "D-104",
+          "capacity": 35,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG309",
+      "courseName": "Python ile Programlamaya Giriş",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG309-S01",
+          "sectionId": "50479714",
+          "instructor": "ŞEBNEM EŞSİZ TEKGÜÇ",
+          "room": "PC Lab.2",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG315",
+      "courseName": "Biyokimya Lab I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG315-S01",
+          "sectionId": "50479708",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "A-012 MBG La",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG315-S02",
+          "sectionId": "50479710",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "A-012 MBG La",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG315-S03",
+          "sectionId": "50479712",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "A-012 MBG La",
+          "capacity": 12,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "16:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG320",
+      "courseName": "Moleküler Modelleme ve Simülasyon",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG320-S01",
+          "sectionId": "50479226",
+          "instructor": "EBRU DEMET AKTEN",
+          "room": "PC Lab.2",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG321",
+      "courseName": "Moleküler Biyoloji ve Genetik I",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG321-S01",
+          "sectionId": "50479220",
+          "instructor": "NURAY SÖĞÜNMEZ ERDOĞAN",
+          "room": "A-012 MBG La - D-104",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "10:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "MBG321-S02",
+          "sectionId": "50479223",
+          "instructor": "NURAY SÖĞÜNMEZ ERDOĞAN",
+          "room": "D-104 - A-012 MBG La",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            },
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "15:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG401",
+      "courseName": "Moleküler Biyolojide Modern Teknikler",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG401-S01",
+          "sectionId": "50479564",
+          "instructor": "YASEMİN ÖNDER",
+          "room": "D-103",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG425",
+      "courseName": "İlaç Tasarım ve İlaç Etkileşimin Organik",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG425-S01",
+          "sectionId": "50479228",
+          "instructor": "KEMAL YELEKÇİ",
+          "room": "B-516",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG428",
+      "courseName": "Yapısal Biyoinformatik",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG428-S01",
+          "sectionId": "50479230",
+          "instructor": "ŞEBNEM EŞSİZ TEKGÜÇ",
+          "room": "B-210",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MBG433",
+      "courseName": "Kanser Biyolojisi",
+      "faculty": "FENS",
+      "program": "MBG",
+      "sections": [
+        {
+          "sectionCode": "MBG433-S01",
+          "sectionId": "50479566",
+          "instructor": "EBRU BİLGET GÜVEN",
+          "room": "B-502",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE201",
+      "courseName": "Mühendislik Mekaniği",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE201-S01",
+          "sectionId": "50479794",
+          "instructor": "FARAZ KAYA",
+          "room": "B-503",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE211",
+      "courseName": "Teknik Çizim",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE211-S01",
+          "sectionId": "50479753",
+          "instructor": "MİNE SARAÇ STROPPA",
+          "room": "PC Lab.2 - PC Lab.1",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:30",
+              "end": "17:20"
+            },
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE293",
+      "courseName": "Mantıksal Tasarım",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE293-S01",
+          "sectionId": "50479756",
+          "instructor": "AKHTAR SAEED",
+          "room": "A-008.3 Fabl - B-210",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Mon",
+              "start": "14:30",
+              "end": "18:20"
+            },
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE401",
+      "courseName": "Akademik Yazı",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE401-S01",
+          "sectionId": "50479568",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "B-409",
+          "capacity": 10,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE403",
+      "courseName": "Mekatronik Sistem Tasarımı Projesi",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE403-S01",
+          "sectionId": "50479761",
+          "instructor": "VAHİT BARIŞ TAVAKOL",
+          "room": "MikroLab - B-210",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "15:30",
+              "end": "17:20"
+            },
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE411",
+      "courseName": "Termodinamik",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE411-S01",
+          "sectionId": "50478701",
+          "instructor": "FARAZ KAYA",
+          "room": "D-112",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE412",
+      "courseName": "Bilgisayar Destekli İmalat Projesi",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE412-S01",
+          "sectionId": "50479764",
+          "instructor": "FARAZ KAYA",
+          "room": "PC Lab.2 - PC Lab.1",
+          "capacity": 50,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Mon",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE422",
+      "courseName": "Bulanık Mantık Kontrol",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE422-S01",
+          "sectionId": "50479767",
+          "instructor": "VAHİT BARIŞ TAVAKOL",
+          "room": "",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE424",
+      "courseName": "Otomotiv Tahrik Sistemlerinde Sürdürüleb",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE424-S01",
+          "sectionId": "50479662",
+          "instructor": "ERTUĞRUL TOLGA DURAN",
+          "room": "D-119",
+          "capacity": 40,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "MTE491",
+      "courseName": "Robot Tasarım Projesi",
+      "faculty": "FENS",
+      "program": "MTE",
+      "sections": [
+        {
+          "sectionCode": "MTE491-S01",
+          "sectionId": "50479796",
+          "instructor": "MİNE SARAÇ STROPPA",
+          "room": "PC Lab.1 - B-303",
+          "capacity": 30,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "13:00",
+              "end": "14:50"
+            },
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "16:50"
             }
           ]
         }
