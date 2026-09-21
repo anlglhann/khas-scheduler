@@ -1,0 +1,377 @@
+{
+  "courses": [
+    {
+      "courseCode": "CMPE107",
+      "courseName": "Teknik Yazım ve Sunum",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE107-S01",
+          "sectionId": "50479526",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "B-409",
+          "capacity": 110,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "10:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE140",
+      "courseName": "Bilgisayar Programlama I",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE140-S01",
+          "sectionId": "50480013",
+          "instructor": "TONGUÇ YAVUZ",
+          "room": "B-211 - B-110 My Lab",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "CMPE140-S02",
+          "sectionId": "50480016",
+          "instructor": "BURAK ŞEN",
+          "room": "B-211 - B-110 My Lab",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Tue",
+              "start": "15:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE201",
+      "courseName": "Ayrık Hesaplama Yapıları",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE201-S01",
+          "sectionId": "50479210",
+          "instructor": "ÖZKAN KARABACAK",
+          "room": "B-212",
+          "capacity": 120,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE241",
+      "courseName": "Bilgisayar Programlama II",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE241-S01",
+          "sectionId": "50480019",
+          "instructor": "FABIO STROPPA",
+          "room": "B-311 - B-211",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "15:30",
+              "end": "17:20"
+            },
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        },
+        {
+          "sectionCode": "CMPE241-S02",
+          "sectionId": "50480022",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "PC Lab.2 - B-110 My Lab",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "15:50"
+            },
+            {
+              "day": "Wed",
+              "start": "15:30",
+              "end": "17:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE243",
+      "courseName": "Mantık Devreleri Tasarımı",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE243-S01",
+          "sectionId": "50480025",
+          "instructor": "NİMA JAFARİ NAVİMİPOUR",
+          "room": "A-008.3 Fabl - B-211",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "17:00",
+              "end": "18:50"
+            },
+            {
+              "day": "Thu",
+              "start": "13:30",
+              "end": "16:20"
+            }
+          ]
+        },
+        {
+          "sectionCode": "CMPE243-S02",
+          "sectionId": "50480028",
+          "instructor": "NİMA JAFARİ NAVİMİPOUR",
+          "room": "B-301 - A-008.3 Fabl",
+          "capacity": 60,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "13:30",
+              "end": "16:20"
+            },
+            {
+              "day": "Fri",
+              "start": "17:00",
+              "end": "18:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE263",
+      "courseName": "Elektronik Devrelerin Temelleri",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE263-S01",
+          "sectionId": "50479974",
+          "instructor": "ÖZKAN KARABACAK",
+          "room": "A-008.3 Fabl - B-409",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "09:00",
+              "end": "12:50"
+            },
+            {
+              "day": "Mon",
+              "start": "15:30",
+              "end": "18:20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE320",
+      "courseName": "Veri Bilimi",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE320-S01",
+          "sectionId": "50479584",
+          "instructor": "RAHİM DEHKHARGHANİ",
+          "room": "B-409",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Thu",
+              "start": "14:00",
+              "end": "16:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE341",
+      "courseName": "İşletim Sistemleri",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE341-S01",
+          "sectionId": "50480057",
+          "instructor": "NİMA JAFARİ NAVİMİPOUR",
+          "room": "B-311 - B-212",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "09:00",
+              "end": "11:50"
+            },
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "14:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE343",
+      "courseName": "Nesneye Yönelik Programlama Dilleri",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE343-S01",
+          "sectionId": "50480055",
+          "instructor": "İLKTAN AR",
+          "room": "B-212",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "13:00",
+              "end": "17:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE351",
+      "courseName": "Bilgisayar Ağları",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE351-S01",
+          "sectionId": "50480004",
+          "instructor": "İLKTAN AR",
+          "room": "B-212 - B-522",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Fri",
+              "start": "14:00",
+              "end": "16:50"
+            },
+            {
+              "day": "Fri",
+              "start": "10:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE353",
+      "courseName": "Algoritma Analizi",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE353-S01",
+          "sectionId": "50479212",
+          "instructor": "FABIO STROPPA",
+          "room": "B-311",
+          "capacity": 100,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "09:00",
+              "end": "11:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE490",
+      "courseName": "Bilgisayar Mühendisliğinde Özel Konular",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE490-S01",
+          "sectionId": "50479216",
+          "instructor": "",
+          "room": "B-409",
+          "capacity": 20,
+          "meetings": [
+            {
+              "day": "Tue",
+              "start": "13:00",
+              "end": "15:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "courseCode": "CMPE493",
+      "courseName": "Bilgi Kuramına Giriş: Klasikten Kuantuma",
+      "faculty": "FENS",
+      "program": "CMPE",
+      "sections": [
+        {
+          "sectionCode": "CMPE493-S01",
+          "sectionId": "50479786",
+          "instructor": "ONUR PUSULUK",
+          "room": "B-522",
+          "capacity": 70,
+          "meetings": [
+            {
+              "day": "Wed",
+              "start": "10:00",
+              "end": "12:50"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
