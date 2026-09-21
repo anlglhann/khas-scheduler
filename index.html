@@ -2,48 +2,104 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <title>KHAS Scheduler</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kadir Has Üniversitesi için haftalık ders programı oluşturucu." />
+  <title>KHAS Scheduler</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header class="topbar">
-    <div class="logo">KHAS Scheduler</div>
-    <button id="darkToggle" class="icon-btn">🌙</button>
+  <header class="topbar no-print">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">KH</span>
+      <div>
+        <div class="logo">KHAS Scheduler</div>
+        <div class="brand-subtitle">Haftalık ders programı</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <span class="term-chip">2026–2027 Güz</span>
+      <button id="darkToggle" class="icon-btn" type="button" aria-label="Koyu temayı aç" title="Temayı değiştir">🌙</button>
+    </div>
   </header>
 
   <div class="app">
-    <aside class="sidebar">
-      <h3>Ders seç</h3>
-      <label>Faculty</label>
-<select id="facultySelect"></select>
-<label>Program</label>
-<select id="programSelect"></select>
-<label>Course</label>
-<select id="courseSelect" class="select"></select>
-      <input id="courseSearch" type="text" placeholder="Ders ara (örn: CMPE140, Veri Yapıları)" />
-      <div id="courseInfo" class="muted"></div>
-
-      <h3>Section’lar</h3>
-      <div id="sectionList"></div>
-
-      <h3>Seçilenler</h3>
-      <div id="chosenList"></div>
-
-      <div class="btnrow">
-        <button id="clearBtn">Temizle</button>
-        <button id="saveDraftBtn">Kaydet</button>
-        <button id="loadDraftBtn">Yükle</button>
-        <button id="copyLinkBtn">Link</button>
+    <aside class="sidebar no-print" aria-label="Ders seçimi">
+      <div class="sidebar-intro">
+        <p class="eyebrow">PROGRAMINI OLUŞTUR</p>
+        <h2>Derslerini seç</h2>
+        <p>Bir ders ve şube seçerek haftalık programına ekle.</p>
       </div>
 
-      <div id="status" class="muted"></div>
+      <div class="filter-group">
+        <label for="facultySelect">Fakülte</label>
+        <select id="facultySelect"></select>
+
+        <label for="programSelect">Program</label>
+        <select id="programSelect"></select>
+
+        <label for="courseSelect">Ders</label>
+        <select id="courseSelect"></select>
+
+        <label class="sr-only" for="courseSearch">Ders ara</label>
+        <input id="courseSearch" type="search" placeholder="Ders ara (örn. CMPE140)" autocomplete="off" />
+        <div id="courseInfo" class="muted" aria-live="polite"></div>
+      </div>
+
+      <section class="sidebar-section">
+        <div class="section-heading">
+          <h3>Şubeler</h3>
+          <span id="sectionCount" class="count-badge">0</span>
+        </div>
+        <div id="sectionList"></div>
+      </section>
+
+      <section class="sidebar-section">
+        <div class="section-heading">
+          <h3>Seçilen dersler</h3>
+          <span id="chosenCount" class="count-badge">0</span>
+        </div>
+        <div id="chosenList"></div>
+      </section>
+
+      <div class="btnrow" aria-label="Program işlemleri">
+        <button id="clearBtn" type="button">Temizle</button>
+        <button id="saveDraftBtn" type="button">Kaydet</button>
+        <button id="loadDraftBtn" type="button">Yükle</button>
+        <button id="copyLinkBtn" type="button">Linki kopyala</button>
+      </div>
+
+      <div id="status" class="status" aria-live="polite"></div>
     </aside>
 
     <main class="main">
-      <h2 class="title">Takvim</h2>
-      <div id="calendar" class="calendar"></div>
+      <div class="schedule-toolbar no-print">
+        <div>
+          <p class="eyebrow">HAFTALIK GÖRÜNÜM</p>
+          <h1>Programın</h1>
+          <p id="selectionSummary" class="toolbar-summary">Henüz ders eklenmedi</p>
+        </div>
+        <button id="printBtn" class="print-btn" type="button">
+          <span aria-hidden="true">↓</span>
+          PDF Olarak İndir
+        </button>
+      </div>
+
+      <article id="scheduleSheet" class="schedule-sheet">
+        <header class="schedule-heading">
+          <p class="university-name">KADİR HAS UNIVERSITY</p>
+          <h2>Weekly Course Schedule</h2>
+          <p class="schedule-term">2026–2027 Fall Semester</p>
+        </header>
+
+        <div class="calendar-shell">
+          <div id="calendar" class="calendar" aria-label="Haftalık ders programı"></div>
+        </div>
+
+        <footer class="schedule-footer">
+          <span>KHAS Scheduler</span>
+          <span id="printCourseCount">0 courses</span>
+        </footer>
+      </article>
     </main>
   </div>
 

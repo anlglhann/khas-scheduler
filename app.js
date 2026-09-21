@@ -1,43 +1,37 @@
 let DATA = null;
 let chosenSections = [];
-let COURSE_QUERY = "";
-let FACULTY_DATA = {
-  "Engineering": [
-    "Computer Engineering",
-    "Industrial Engineering",
-    "Electrical Engineering"
-  ],
-  "Arts & Social Sciences": [
-    "Psychology",
-    "Economics",
-    "International Relations"
-  ],
-  "Management": [
-    "Business Administration",
-    "Finance"
-  ]
-};
+let courseQuery = "";
 
-function getSelectedProgram() {
-  const el = document.getElementById("programSelect");
-  return el ? el.value : "";
+const DAYS = [
+  { key: "Mon", label: "Monday" },
+  { key: "Tue", label: "Tuesday" },
+  { key: "Wed", label: "Wednesday" },
+  { key: "Thu", label: "Thursday" },
+  { key: "Fri", label: "Friday" },
+];
+
+const GRID_START_HOUR = 8;
+const GRID_END_HOUR = 22;
+const GRID_START_MINUTES = GRID_START_HOUR * 60;
+const GRID_END_MINUTES = GRID_END_HOUR * 60;
+const GRID_DURATION = GRID_END_MINUTES - GRID_START_MINUTES;
+const DRAFT_KEY = "khasSchedulerDraftV1";
+const THEME_KEY = "khasSchedulerThemeV1";
+const DEFAULT_DOCUMENT_TITLE = "KHAS Scheduler";
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
-function courseMatchesSelectedProgram(course) {
-  const prog = getSelectedProgram();
-  if (!prog) return true;
-  // normalize.js artık course.program yazıyor (CMPE / IE gibi)
-  return String(course.program || "").toUpperCase() === String(prog).toUpperCase();
-}
-
-function getSelectedProgram() {
-  const el = document.getElementById("programSelect");
-  return el ? el.value : "";
-}
-
-function timeToMin(t) {
-  const [h, m] = String(t).split(":").map(Number);
-  return (h || 0) * 60 + (m || 0);
+function timeToMin(time) {
+  const [hour, minute] = String(time || "").split(":").map(Number);
+  if (!Number.isFinite(hour) || !Number.isFinite(minute)) return 0;
+  return hour * 60 + minute;
 }
 
 function safeMeetings(section) {
@@ -45,160 +39,35 @@ function safeMeetings(section) {
 }
 
 function sectionConflicts(a, b) {
-  const am = Array.isArray(a?.meetings) ? a.meetings : [];
-  const bm = Array.isArray(b?.meetings) ? b.meetings : [];
-  for (const ma of am) {
-    for (const mb of bm) {
-      if (ma.day !== mb.day) continue;
-      const sa = timeToMin(ma.start);
-      const ea = timeToMin(ma.end);
-      const sb = timeToMin(mb.start);
-      const eb = timeToMin(mb.end);
-      if (sa < eb && sb < ea) return true;
+  for (const meetingA of safeMeetings(a)) {
+    for (const meetingB of safeMeetings(b)) {
+      if (meetingA.day !== meetingB.day) continue;
+
+      const startA = timeToMin(meetingA.start);
+      const endA = timeToMin(meetingA.end);
+      const startB = timeToMin(meetingB.start);
+      const endB = timeToMin(meetingB.end);
+
+      if (startA < endB && startB < endA) return true;
     }
   }
   return false;
 }
 
 function findCourse(courseCode) {
-  return DATA?.courses?.find(c => c.courseCode === courseCode) || null;
+  return DATA?.courses?.find((course) => course.courseCode === courseCode) || null;
 }
 
 function findSectionByCode(sectionCode) {
-  for (const course of (DATA?.courses || [])) {
-    const section = (course.sections || []).find(s => s.sectionCode === sectionCode);
+  for (const course of DATA?.courses || []) {
+    const section = (course.sections || []).find((item) => item.sectionCode === sectionCode);
     if (section) return { course, section };
   }
   return null;
 }
 
-function getSelectedSectionCodes() {
-  return chosenSections.map(x => x.sectionCode);
-}
-
-function updateStatus(msg) {
-  const el = document.getElementById("status");
-  if (el) el.textContent = msg || "";
-}
-
-function renderCourses() {
-  const select = document.getElementById("courseSelect");
-  const search = document.getElementById("courseSearch");
-  if (!select) return;
-
-  // Arama input'u sadece bir kere bağla
-  if (search && !search._bound) {
-    search._bound = true;
-    search.addEventListener("input", () => {
-      COURSE_QUERY = (search.value || "").trim().toLowerCase();
-      renderCourses();
-    });
-  }
-
-  const prevSelected = select.value;
-  select.innerHTML = "";
-
-  const all = (DATA?.courses || []);
-
-  const faculty = document.getElementById("facultySelect")?.value || "";
-  const program = document.getElementById("programSelect")?.value || "";
-
-  let filtered = all.filter(c => {
-    if (faculty && c.faculty !== faculty) return false;
-    if (program && c.program !== program) return false;
-    return true;
-  });
-
-  if (COURSE_QUERY) {
-    filtered = filtered.filter(c => {
-      const hay = `${c.courseCode} ${c.courseName}`.toLowerCase();
-      return hay.includes(COURSE_QUERY);
-    });
-  }
-
-  if (!filtered.length) {
-    const info = document.getElementById("courseInfo");
-    const list = document.getElementById("sectionList");
-    if (info) info.textContent = "Sonuç yok";
-    if (list) list.innerHTML = "";
-    return;
-  }
-
-  for (const c of filtered) {
-    const opt = document.createElement("option");
-    opt.value = c.courseCode;
-    opt.textContent = `${c.courseCode} - ${c.courseName}`;
-    select.appendChild(opt);
-  }
-
-  select.onchange = () => renderSections(select.value);
-
-  // Önceki seçimi korumaya çalış
-  if (prevSelected && filtered.some(c => c.courseCode === prevSelected)) {
-    select.value = prevSelected;
-  } else {
-    select.value = filtered[0].courseCode;
-  }
-
-  renderSections(select.value);
-}
-
-function renderSections(courseCode) {
-  const course = findCourse(courseCode);
-  const info = document.getElementById("courseInfo");
-  const list = document.getElementById("sectionList");
-  if (!list) return;
-  list.innerHTML = "";
-
-  if (!course) return;
-
-  if (info) {
-    const sectionCount = (course.sections || []).length;
-    const label =
-      sectionCount === 1
-        ? "1 section"
-        : `${sectionCount} sections`;
-  
-    info.textContent =
-      `${course.courseCode} — ${course.courseName} (${label})`;
-  }
-
-  for (const section of (course.sections || [])) {
-    const div = document.createElement("div");
-    div.className = "row";
-
-    const meetings = safeMeetings(section);
-
-    const room = section.room || "";
-    const inst = section.instructor || "";
-
-    const meetingsHtml = meetings.map(m => {
-      return `
-        <div class="small">
-          ${m.day} ${m.start}-${m.end}
-        </div>
-      `;
-    }).join("");
-
-    div.innerHTML = `
-      <div><strong>${section.sectionCode}</strong></div>
-      ${meetingsHtml || `<div class="small">Saat bilgisi yok</div>`}
-      <div class="small">
-        ${room ? `Room: ${room}<br>` : ""}
-        ${inst ? `Instructor: ${inst}` : ""}
-      </div>
-      <div class="actions">
-        <button class="addBtn">Ekle</button>
-      </div>
-    `;
-
-    div.querySelector(".addBtn").onclick = () => addSection(course, section);
-    list.appendChild(div);
-  }
-}
-
-function addSection(course, section) {
-  const normalizedSection = {
+function normalizeSection(course, section) {
+  return {
     courseCode: course.courseCode,
     courseName: course.courseName,
     sectionCode: section.sectionCode,
@@ -207,293 +76,487 @@ function addSection(course, section) {
     instructor: section.instructor || "",
     capacity: section.capacity ?? "",
   };
+}
 
-  chosenSections = chosenSections.filter(x => x.courseCode !== course.courseCode);
+function getSelectedSectionCodes() {
+  return chosenSections.map((item) => item.sectionCode);
+}
 
-  for (const ch of chosenSections) {
-    if (sectionConflicts(ch, normalizedSection)) {
-      alert("Saat çakışması var!");
-      return;
-    }
+function getSectionShortLabel(sectionCode) {
+  const parts = String(sectionCode || "").split("-");
+  return parts.length > 1 ? parts.at(-1) : sectionCode;
+}
+
+function updateStatus(message) {
+  const status = document.getElementById("status");
+  if (status) status.textContent = message || "";
+}
+
+function renderCourses() {
+  const select = document.getElementById("courseSelect");
+  const search = document.getElementById("courseSearch");
+  const info = document.getElementById("courseInfo");
+  const sectionList = document.getElementById("sectionList");
+  const sectionCount = document.getElementById("sectionCount");
+  if (!select) return;
+
+  if (search && !search.dataset.bound) {
+    search.dataset.bound = "true";
+    search.addEventListener("input", () => {
+      courseQuery = search.value.trim().toLocaleLowerCase("tr-TR");
+      renderCourses();
+    });
   }
 
-  chosenSections.push(normalizedSection);
+  const previousCourse = select.value;
+  const faculty = document.getElementById("facultySelect")?.value || "";
+  const program = document.getElementById("programSelect")?.value || "";
+
+  let filtered = (DATA?.courses || []).filter((course) => {
+    if (faculty && course.faculty !== faculty) return false;
+    if (program && course.program !== program) return false;
+    return true;
+  });
+
+  if (courseQuery) {
+    filtered = filtered.filter((course) => {
+      const searchable = `${course.courseCode || ""} ${course.courseName || ""}`.toLocaleLowerCase("tr-TR");
+      return searchable.includes(courseQuery);
+    });
+  }
+
+  select.innerHTML = "";
+
+  if (!filtered.length) {
+    if (info) info.textContent = "Aramana uygun ders bulunamadı.";
+    if (sectionList) sectionList.innerHTML = '<p class="empty-note">Başka bir arama ya da program deneyebilirsin.</p>';
+    if (sectionCount) sectionCount.textContent = "0";
+    return;
+  }
+
+  for (const course of filtered) {
+    const option = document.createElement("option");
+    option.value = course.courseCode;
+    option.textContent = `${course.courseCode} — ${course.courseName}`;
+    select.appendChild(option);
+  }
+
+  select.onchange = () => renderSections(select.value);
+  select.value = filtered.some((course) => course.courseCode === previousCourse)
+    ? previousCourse
+    : filtered[0].courseCode;
+
+  renderSections(select.value);
+}
+
+function renderSections(courseCode) {
+  const course = findCourse(courseCode);
+  const info = document.getElementById("courseInfo");
+  const list = document.getElementById("sectionList");
+  const count = document.getElementById("sectionCount");
+  if (!list) return;
+
+  list.innerHTML = "";
+
+  if (!course) {
+    if (count) count.textContent = "0";
+    return;
+  }
+
+  const sections = course.sections || [];
+  if (info) {
+    info.textContent = `${course.courseCode} · ${course.courseName} · ${sections.length} şube`;
+  }
+  if (count) count.textContent = String(sections.length);
+
+  if (!sections.length) {
+    list.innerHTML = '<p class="empty-note">Bu ders için şube bulunamadı.</p>';
+    return;
+  }
+
+  for (const section of sections) {
+    const selected = chosenSections.some((item) => item.sectionCode === section.sectionCode);
+    const card = document.createElement("article");
+    card.className = `section-card${selected ? " is-selected" : ""}`;
+
+    const meetingLines = safeMeetings(section)
+      .map((meeting) => `<span>${escapeHtml(meeting.day)} · ${escapeHtml(meeting.start)}–${escapeHtml(meeting.end)}</span>`)
+      .join("");
+
+    card.innerHTML = `
+      <div class="card-title">${escapeHtml(section.sectionCode)}</div>
+      <div class="card-course-name">${escapeHtml(course.courseName)}</div>
+      <div class="card-meta">
+        ${meetingLines || "<span>Saat bilgisi yok</span>"}
+        ${section.room ? `<span>Room · ${escapeHtml(section.room)}</span>` : ""}
+        ${section.instructor ? `<span>${escapeHtml(section.instructor)}</span>` : ""}
+      </div>
+      <div class="card-actions">
+        <button class="add-btn" type="button" ${selected ? "disabled" : ""}>${selected ? "Eklendi" : "Programa ekle"}</button>
+      </div>
+    `;
+
+    const button = card.querySelector(".add-btn");
+    if (!selected) button.addEventListener("click", () => addSection(course, section));
+    list.appendChild(card);
+  }
+}
+
+function addSection(course, section) {
+  const nextSection = normalizeSection(course, section);
+  const otherCourses = chosenSections.filter((item) => item.courseCode !== course.courseCode);
+  const conflict = otherCourses.find((item) => sectionConflicts(item, nextSection));
+
+  if (conflict) {
+    window.alert(`${conflict.courseCode} ile saat çakışması var.`);
+    return;
+  }
+
+  chosenSections = [...otherCourses, nextSection];
   renderChosen();
+  updateStatus(`${course.courseCode} programa eklendi.`);
 }
 
 function removeSection(courseCode) {
-  chosenSections = chosenSections.filter(x => x.courseCode !== courseCode);
+  chosenSections = chosenSections.filter((item) => item.courseCode !== courseCode);
   renderChosen();
+  updateStatus(`${courseCode} programdan kaldırıldı.`);
 }
 
 function renderChosen() {
   const list = document.getElementById("chosenList");
+  const count = document.getElementById("chosenCount");
+  const summary = document.getElementById("selectionSummary");
+  const printCount = document.getElementById("printCourseCount");
   if (!list) return;
+
   list.innerHTML = "";
+  if (count) count.textContent = String(chosenSections.length);
 
-  for (const ch of chosenSections) {
-    const div = document.createElement("div");
-    div.className = "row";
+  const courseLabel = chosenSections.length === 1 ? "1 ders" : `${chosenSections.length} ders`;
+  if (summary) summary.textContent = chosenSections.length ? `${courseLabel} programına eklendi` : "Henüz ders eklenmedi";
+  if (printCount) printCount.textContent = chosenSections.length === 1 ? "1 course" : `${chosenSections.length} courses`;
 
-    const meetingsText = (ch.meetings || [])
-      .map(m => `${m.day} ${m.start}-${m.end}`)
-      .join("<br>");
+  if (!chosenSections.length) {
+    list.innerHTML = '<p class="empty-note">Eklediğin dersler burada görünecek.</p>';
+  }
 
-    div.innerHTML = `
-      <div><strong>${ch.courseCode}</strong> — ${ch.courseName}</div>
-      <div class="small">
-        ${ch.sectionCode}<br>
-        ${meetingsText}<br>
-        ${ch.room ? `Room: ${ch.room}<br>` : ""}
-        ${ch.instructor ? `Instructor: ${ch.instructor}` : ""}
-      </div>
-      <div class="actions">
-        <button class="removeBtn">Kaldır</button>
+  for (const chosen of chosenSections) {
+    const card = document.createElement("article");
+    card.className = "chosen-card";
+    const meetingLines = safeMeetings(chosen)
+      .map((meeting) => `<span>${escapeHtml(meeting.day)} · ${escapeHtml(meeting.start)}–${escapeHtml(meeting.end)}</span>`)
+      .join("");
+
+    card.innerHTML = `
+      <div class="card-title">${escapeHtml(chosen.courseCode)} · ${escapeHtml(getSectionShortLabel(chosen.sectionCode))}</div>
+      <div class="card-course-name">${escapeHtml(chosen.courseName)}</div>
+      <div class="card-meta">${meetingLines}</div>
+      <div class="card-actions">
+        <button class="remove-btn" type="button">Kaldır</button>
       </div>
     `;
 
-    div.querySelector(".removeBtn").onclick = () => removeSection(ch.courseCode);
-    list.appendChild(div);
+    card.querySelector(".remove-btn").addEventListener("click", () => removeSection(chosen.courseCode));
+    list.appendChild(card);
   }
 
   renderCalendar();
   updateUrlFromSelection();
+
+  const selectedCourse = document.getElementById("courseSelect")?.value;
+  if (selectedCourse) renderSections(selectedCourse);
+}
+
+function createCalendarHeader() {
+  const header = document.createElement("div");
+  header.className = "calendar-days";
+
+  const corner = document.createElement("div");
+  corner.className = "calendar-corner";
+  corner.textContent = "TIME";
+  header.appendChild(corner);
+
+  for (const day of DAYS) {
+    const heading = document.createElement("div");
+    heading.className = "day-heading";
+    heading.textContent = day.label;
+    header.appendChild(heading);
+  }
+
+  return header;
+}
+
+function createTimeAxis() {
+  const axis = document.createElement("div");
+  axis.className = "time-axis";
+
+  for (let hour = GRID_START_HOUR; hour <= GRID_END_HOUR; hour += 1) {
+    const label = document.createElement("div");
+    label.className = "time-label";
+    if (hour === GRID_START_HOUR) label.classList.add("is-first");
+    if (hour === GRID_END_HOUR) label.classList.add("is-last");
+    label.style.top = `${((hour - GRID_START_HOUR) / (GRID_END_HOUR - GRID_START_HOUR)) * 100}%`;
+    label.textContent = `${String(hour).padStart(2, "0")}:00`;
+    axis.appendChild(label);
+  }
+
+  return axis;
 }
 
 function renderCalendar() {
-  const cal = document.getElementById("calendar");
-  if (!cal) return;
-  
-  const days = ["Mon", "Tue", "Wed", "Thu", "Fri"];
-  const startHour = 8;
-  const endHour = 20;
-  const slotMin = 30;
+  const calendar = document.getElementById("calendar");
+  if (!calendar) return;
 
-  cal.innerHTML = "";
+  calendar.innerHTML = "";
+  calendar.appendChild(createCalendarHeader());
 
-  const totalRows = ((endHour - startHour) * 60) / slotMin;
-  const gridStart = startHour * 60;
- 
-  cal.style.display = "grid";
-  cal.style.gridTemplateColumns = "80px repeat(5, 1fr)";
-  cal.style.gridAutoRows = "40px";
+  const body = document.createElement("div");
+  body.className = "calendar-body";
+  body.appendChild(createTimeAxis());
 
-  const blank = document.createElement("div");
-  blank.className = "cal-head";
-  cal.appendChild(blank);
+  const columns = document.createElement("div");
+  columns.className = "day-columns";
+  const columnMap = new Map();
 
-  for (const d of days) {
-    const hd = document.createElement("div");
-    hd.className = "cal-head";
-    hd.textContent = d;
-    cal.appendChild(hd);
-  }
-  
-  const cellMap = [];
-  
-  for (let r = 0; r < totalRows; r++) {
-    const minutes = gridStart + r * slotMin;
-    const hh = String(Math.floor(minutes / 60)).padStart(2, "0");
-    const mm = String(minutes % 60).padStart(2, "0");
-  
-    const timeCell = document.createElement("div");
-    timeCell.className = "cal-time";
-    timeCell.textContent = `${hh}:${mm}`;
-    cal.appendChild(timeCell);
-
-    const rowCells = [];
-
-    for (let i = 0; i < days.length; i++) {
-      const cell = document.createElement("div");
-      cell.className = "cal-cell";
-      cell.style.position = "relative";
-      cal.appendChild(cell);
-      rowCells.push(cell);
-    }
-  
-    cellMap.push(rowCells);
+  for (const day of DAYS) {
+    const column = document.createElement("div");
+    column.className = "day-column";
+    column.dataset.day = day.key;
+    columnMap.set(day.key, column);
+    columns.appendChild(column);
   }
 
-  for (const ch of chosenSections) {
-    for (const m of ch.meetings) {
-      if (!days.includes(m.day)) continue;
+  for (const chosen of chosenSections) {
+    for (const meeting of safeMeetings(chosen)) {
+      const column = columnMap.get(meeting.day);
+      if (!column) continue;
 
-      const start = timeToMin(m.start);
-      const end = timeToMin(m.end);
+      const rawStart = timeToMin(meeting.start);
+      const rawEnd = timeToMin(meeting.end);
+      if (rawEnd <= GRID_START_MINUTES || rawStart >= GRID_END_MINUTES || rawEnd <= rawStart) continue;
 
-      const startIndex = Math.floor((start - gridStart) / slotMin);
-      const span = Math.ceil((end - start) / slotMin);
+      const start = Math.max(rawStart, GRID_START_MINUTES);
+      const end = Math.min(rawEnd, GRID_END_MINUTES);
+      const duration = end - start;
+      const block = document.createElement("article");
+      block.className = `cal-block${duration < 90 ? " is-compact" : ""}`;
+      block.style.top = `${((start - GRID_START_MINUTES) / GRID_DURATION) * 100}%`;
+      block.style.height = `${(duration / GRID_DURATION) * 100}%`;
+      block.setAttribute(
+        "aria-label",
+        `${chosen.courseCode}, ${chosen.courseName}, ${meeting.start}-${meeting.end}, ${chosen.room}, ${chosen.instructor}`
+      );
+      block.title = `${chosen.courseCode} · ${chosen.courseName}\n${chosen.sectionCode}\n${meeting.start}–${meeting.end}\n${chosen.room}\n${chosen.instructor}`;
 
-      const dayIndex = days.indexOf(m.day);
-      const cell = cellMap[startIndex][dayIndex];
+      block.innerHTML = `
+        <div class="cal-block-time">${escapeHtml(meeting.start)} – ${escapeHtml(meeting.end)}</div>
+        <div class="cal-block-content">
+          <div class="cal-block-code">${escapeHtml(chosen.courseCode)} <span>${escapeHtml(getSectionShortLabel(chosen.sectionCode))}</span></div>
+          <div class="cal-block-name">${escapeHtml(chosen.courseName)}</div>
+          <div class="cal-block-meta">
+            ${chosen.room ? `<div>${escapeHtml(chosen.room)}</div>` : ""}
+            ${chosen.instructor ? `<div>${escapeHtml(chosen.instructor)}</div>` : ""}
+          </div>
+        </div>
+      `;
 
-      const block = document.createElement("div");
-      block.className = "cal-block";
-
-      block.style.position = "absolute";
-      block.style.top = "2px";
-      block.style.left = "2px";
-      block.style.right = "2px";
-      block.style.height = span * 40 - 4 + "px";
-
-      block.textContent =
-        `${ch.courseCode}\n${ch.courseName}\n` +
-        `${ch.sectionCode}\n` +
-        `${m.start}-${m.end}\n` +
-        `${ch.room ? ch.room + "\n" : ""}` +
-        `${ch.instructor ? ch.instructor : ""}`;
-
-      cell.appendChild(block);
+      column.appendChild(block);
     }
   }
+
+  body.appendChild(columns);
+  calendar.appendChild(body);
 }
 
 function updateUrlFromSelection() {
-  const codes = getSelectedSectionCodes();
-  const url = new URL(window.location.href);
-  if (codes.length === 0) url.searchParams.delete("s");
-  else url.searchParams.set("s", codes.join(","));
-  history.replaceState({}, "", url.toString());
+  try {
+    const url = new URL(window.location.href);
+    const sectionCodes = getSelectedSectionCodes();
+    if (sectionCodes.length) url.searchParams.set("s", sectionCodes.join(","));
+    else url.searchParams.delete("s");
+    window.history.replaceState({}, "", url.toString());
+  } catch (error) {
+    console.warn("URL güncellenemedi:", error);
+  }
 }
 
 function applySelectionBySectionCodes(sectionCodes) {
-  chosenSections = [];
+  const nextSelection = [];
 
   for (const code of sectionCodes) {
     const found = findSectionByCode(code);
     if (!found) continue;
 
-    const course = found.course;
-    const section = found.section;
-
-    const normalizedSection = {
-      courseCode: course.courseCode,
-      courseName: course.courseName,
-      sectionCode: section.sectionCode,
-      meetings: safeMeetings(section),
-      room: section.room || "",
-      instructor: section.instructor || "",
-      capacity: section.capacity ?? "",
-    };
-
-    chosenSections = chosenSections.filter(x => x.courseCode !== course.courseCode);
-
-    let conflict = false;
-    for (const ch of chosenSections) {
-      if (sectionConflicts(ch, normalizedSection)) { conflict = true; break; }
-    }
-    if (conflict) continue;
-
-    chosenSections.push(normalizedSection);
+    const normalized = normalizeSection(found.course, found.section);
+    const withoutSameCourse = nextSelection.filter((item) => item.courseCode !== normalized.courseCode);
+    const hasConflict = withoutSameCourse.some((item) => sectionConflicts(item, normalized));
+    if (!hasConflict) nextSelection.splice(0, nextSelection.length, ...withoutSameCourse, normalized);
   }
 
+  chosenSections = nextSelection;
   renderChosen();
 }
 
 function loadSelectionFromUrl() {
   const url = new URL(window.location.href);
-  const s = url.searchParams.get("s");
-  if (!s) return;
-  const codes = s.split(",").map(x => x.trim()).filter(Boolean);
+  const value = url.searchParams.get("s");
+  if (!value) return false;
+
+  const codes = value.split(",").map((item) => item.trim()).filter(Boolean);
   applySelectionBySectionCodes(codes);
+  return true;
 }
 
-const DRAFT_KEY = "khasSchedulerDraftV1";
-
 function saveDraft() {
-  const payload = { sectionCodes: getSelectedSectionCodes() };
-  localStorage.setItem(DRAFT_KEY, JSON.stringify(payload));
+  try {
+    localStorage.setItem(DRAFT_KEY, JSON.stringify({ sectionCodes: getSelectedSectionCodes() }));
+    updateStatus("Taslak kaydedildi.");
+  } catch (error) {
+    console.error("Taslak kaydedilemedi:", error);
+    updateStatus("Taslak kaydedilemedi.");
+  }
 }
 
 function loadDraft() {
-  const raw = localStorage.getItem(DRAFT_KEY);
-  if (!raw) { alert("Kaydedilmiş taslak yok."); return; }
-  const payload = JSON.parse(raw);
-  applySelectionBySectionCodes(payload.sectionCodes || []);
+  try {
+    const raw = localStorage.getItem(DRAFT_KEY);
+    if (!raw) {
+      window.alert("Kaydedilmiş taslak yok.");
+      return;
+    }
+
+    const payload = JSON.parse(raw);
+    applySelectionBySectionCodes(payload.sectionCodes || []);
+    updateStatus("Taslak yüklendi.");
+  } catch (error) {
+    console.error("Taslak yüklenemedi:", error);
+    updateStatus("Taslak yüklenemedi.");
+  }
 }
 
 function setupFacultyProgram() {
   const facultySelect = document.getElementById("facultySelect");
   const programSelect = document.getElementById("programSelect");
+  if (!facultySelect || !programSelect) return;
 
-  const faculties = Array.from(
-    new Set((DATA?.courses || []).map(c => c.faculty).filter(Boolean))
-  ).sort();
+  const faculties = [...new Set((DATA?.courses || []).map((course) => course.faculty).filter(Boolean))].sort();
+  facultySelect.innerHTML = '<option value="">Tüm fakülteler</option>';
 
-  facultySelect.innerHTML =
-    `<option value="">All Faculties</option>` +
-    faculties.map(f => `<option value="${f}">${f}</option>`).join("");
+  for (const faculty of faculties) {
+    const option = document.createElement("option");
+    option.value = faculty;
+    option.textContent = faculty;
+    facultySelect.appendChild(option);
+  }
 
-  facultySelect.onchange = () => {
+  facultySelect.addEventListener("change", () => {
     updateProgramDropdown();
     renderCourses();
-  };
-
-  programSelect.onchange = () => {
-    renderCourses();
-  };
-
+  });
+  programSelect.addEventListener("change", renderCourses);
   updateProgramDropdown();
 }
 
 function updateProgramDropdown() {
-  const faculty = document.getElementById("facultySelect").value;
+  const faculty = document.getElementById("facultySelect")?.value || "";
   const programSelect = document.getElementById("programSelect");
+  if (!programSelect) return;
 
-  let courses = DATA?.courses || [];
+  const matchingCourses = faculty
+    ? (DATA?.courses || []).filter((course) => course.faculty === faculty)
+    : DATA?.courses || [];
+  const programs = [...new Set(matchingCourses.map((course) => course.program).filter(Boolean))].sort();
 
-  if (faculty) {
-    courses = courses.filter(c => c.faculty === faculty);
+  programSelect.innerHTML = '<option value="">Tüm programlar</option>';
+  for (const program of programs) {
+    const option = document.createElement("option");
+    option.value = program;
+    option.textContent = program;
+    programSelect.appendChild(option);
   }
+}
 
-  const programs = Array.from(
-    new Set(courses.map(c => c.program).filter(Boolean))
-  ).sort();
+async function copyShareLink() {
+  const link = window.location.href;
+  try {
+    if (!navigator.clipboard) throw new Error("Clipboard API unavailable");
+    await navigator.clipboard.writeText(link);
+    updateStatus("Program bağlantısı kopyalandı.");
+  } catch (error) {
+    window.prompt("Bu bağlantıyı kopyalayabilirsin:", link);
+  }
+}
 
-  programSelect.innerHTML =
-    `<option value="">All Programs</option>` +
-    programs.map(p => `<option value="${p}">${p}</option>`).join("");
+function setDarkMode(enabled) {
+  document.body.classList.toggle("dark", enabled);
+  const toggle = document.getElementById("darkToggle");
+  if (toggle) {
+    toggle.textContent = enabled ? "☀️" : "🌙";
+    toggle.setAttribute("aria-label", enabled ? "Açık temayı aç" : "Koyu temayı aç");
+  }
+  try {
+    localStorage.setItem(THEME_KEY, enabled ? "dark" : "light");
+  } catch (error) {
+    console.warn("Tema tercihi kaydedilemedi:", error);
+  }
+}
+
+function preparePrint() {
+  document.title = "khas-weekly-schedule-2026-2027-fall";
+}
+
+function restoreAfterPrint() {
+  document.title = DEFAULT_DOCUMENT_TITLE;
+}
+
+function printSchedule() {
+  preparePrint();
+  updateStatus("PDF görünümü hazırlanıyor…");
+  window.print();
+  window.setTimeout(restoreAfterPrint, 500);
+}
+
+function bindActions() {
+  document.getElementById("clearBtn")?.addEventListener("click", () => {
+    chosenSections = [];
+    renderChosen();
+    updateStatus("Program temizlendi.");
+  });
+  document.getElementById("saveDraftBtn")?.addEventListener("click", saveDraft);
+  document.getElementById("loadDraftBtn")?.addEventListener("click", loadDraft);
+  document.getElementById("copyLinkBtn")?.addEventListener("click", copyShareLink);
+  document.getElementById("printBtn")?.addEventListener("click", printSchedule);
+  document.getElementById("darkToggle")?.addEventListener("click", () => {
+    setDarkMode(!document.body.classList.contains("dark"));
+  });
+
+  window.addEventListener("beforeprint", preparePrint);
+  window.addEventListener("afterprint", restoreAfterPrint);
 }
 
 async function init() {
   try {
-    const res = await fetch("data/normalized.json");
-    DATA = await res.json();
+    const response = await fetch("data/normalized.json");
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    DATA = await response.json();
 
     setupFacultyProgram();
     renderCourses();
+    bindActions();
 
-    document.getElementById("clearBtn").onclick = () => {
-      chosenSections = [];
-      renderChosen();
-      updateStatus("");
-    };
+    try {
+      setDarkMode(localStorage.getItem(THEME_KEY) === "dark");
+    } catch (error) {
+      setDarkMode(false);
+    }
 
-    document.getElementById("saveDraftBtn").onclick = () => {
-      saveDraft();
-      alert("Taslak kaydedildi.");
-    };
-
-    document.getElementById("loadDraftBtn").onclick = () => {
-      loadDraft();
-    };
-
-    document.getElementById("copyLinkBtn").onclick = async () => {
-      const link = window.location.href;
-      await navigator.clipboard.writeText(link);
-      alert("Link kopyalandı.");
-    };
-
-    document.getElementById("darkToggle").onclick = () => {
-      document.body.classList.toggle("dark");
-    };
-
-    loadSelectionFromUrl();
-    renderChosen();
+    if (!loadSelectionFromUrl()) renderChosen();
     updateStatus("Hazır.");
-  } catch (err) {
-    console.error("Init error:", err);
-    updateStatus("Veri yüklenemedi.");
+  } catch (error) {
+    console.error("Başlatma hatası:", error);
+    updateStatus("Ders verileri yüklenemedi.");
+    document.getElementById("calendar").innerHTML = '<p class="empty-note">Ders verileri yüklenemedi.</p>';
   }
 }
 
